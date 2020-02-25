@@ -1,0 +1,156 @@
+opt target : n97 (d6)
+Input list : n74(d2) n85(d2) n78(d2) n94(d3) n63(d3) 
+old bexp : (((not n94) and (not ((n85 and n78) and n74))) and (not n63))
+new bexp : (not (((n78 and n85) and n74) or (n63 or n94)))
+
+
+opt target : n194 (d3)
+Input list : i_9(d0) i_8(d0) i_7(d0) 
+old bexp : (((not (i_8 and (not i_7))) and (not i_9)) and (not ((not i_8) and i_7)))
+new bexp : (not ((i_7 xor i_8) or i_9))
+
+
+opt target : n196 (d3)
+Input list : i_9(d0) i_7(d0) i_8(d0) i_5(d0) 
+old bexp : ((not (not ((i_7 xor i_8) or i_9))) and (not ((not (i_8 and i_7)) and i_5)))
+new bexp : ((((i_8 xor i_7) or (i_5 xor i_9)) xor i_5) and ((not i_5) or i_7))
+
+
+opt target : n108 (d2)
+Input list : i_4(d0) i_8(d0) i_6(d0) 
+old bexp : ((not ((not i_6) and i_4)) and (not (i_8 and i_6)))
+new bexp : ((not ((i_8 xor i_4) and i_6)) xor i_4)
+
+
+opt target : n123 (d5)
+Input list : n34(d0) n115(d2) n121(d1) n111(d2) i_3(d0) 
+old bexp : ((n121 and (not ((not n115) and n34))) and ((not n111) and i_3))
+new bexp : (((i_3 and n121) and (not n111)) and ((not n34) or n115))
+
+
+opt target : n101 (d3)
+Input list : i_4(d0) i_7(d0) i_6(d0) i_5(d0) i_3(d0) 
+old bexp : (((not (i_7 and i_6)) and i_4) and (i_5 xor i_3))
+new bexp : (((i_3 xor i_5) and i_4) and (not (i_6 and i_7)))
+
+
+opt target : n135 (d3)
+Input list : i_9(d0) i_7(d0) i_6(d0) i_8(d0) 
+old bexp : ((not ((not (i_7 and (not i_6))) and (not i_9))) and i_8)
+new bexp : ((((not i_7) or i_6) and ((not i_9) and i_8)) xor i_8)
+
+
+opt target : n136 (d3)
+Input list : i_8(d0) i_7(d0) i_9(d0) i_6(d0) 
+old bexp : (((((not i_7) or i_6) and ((not i_9) and i_8)) xor i_8) and (not ((i_9 and i_7) and (not i_6))))
+new bexp : ((((not i_6) and i_7) xor i_9) and i_8)
+
+
+opt target : n160 (d3)
+Input list : i_8(d0) i_9(d0) i_7(d0) i_4(d0) 
+old bexp : ((not ((not (i_9 and i_7)) and i_8)) and (not (i_7 and i_4)))
+new bexp : ((not (((i_4 xor i_8) and i_7) and (i_4 or i_9))) xor i_8)
+
+
+opt target : n162 (d4)
+Input list : i_8(d0) i_7(d0) i_9(d0) i_4(d0) 
+old bexp : ((not ((not (((i_4 xor i_8) and i_7) and (i_4 or i_9))) xor i_8)) and (not (((not (i_9 and i_7)) and i_8) and (not ((not ((not i_9) and (not i_7))) and (not i_4))))))
+new bexp : ((((i_9 xor i_7) and i_8) xor i_4) and ((not i_4) or i_7))
+
+
+opt target : n85 (d3)
+Input list : i_7(d0) i_9(d0) i_6(d0) i_5(d0) 
+old bexp : ((not ((not (i_7 and i_6)) and i_9)) and (not (((not i_9) and i_7) and (not (i_6 and i_5)))))
+new bexp : ((not ((i_5 or i_9) and (i_6 and i_7))) xor (i_9 or i_7))
+
+
+opt target : n78 (d3)
+Input list : i_4(d0) i_7(d0) i_5(d0) i_8(d0) 
+old bexp : ((not (((not i_7) and i_5) and i_4)) and i_8)
+new bexp : ((((not i_7) and i_8) and (i_5 and i_4)) xor i_8)
+
+
+opt target : n71 (d3)
+Input list : i_7(d0) i_9(d0) i_3(d0) 
+old bexp : (((not ((not i_9) and i_3)) and i_7) and (not (i_9 and (not i_3))))
+new bexp : (((not i_3) xor i_9) and i_7)
+
+
+opt target : n185 (d3)
+Input list : i_8(d0) i_9(d0) i_7(d0) i_5(d0) 
+old bexp : ((not ((not (i_9 and i_5)) and (i_8 and i_7))) and (not ((not i_7) and i_5)))
+new bexp : (((not (i_7 and i_8)) or (i_5 and i_9)) xor ((not i_7) and i_5))
+
+
+opt target : n212 (d7)
+Input list : n211(d1) n196(d4) n204(d3) n199(d1) n187(d4) 
+old bexp : (n211 and (not ((not ((n204 and n199) and (not n196))) and (not n187))))
+new bexp : ((((n199 and n211) and n204) and (not n196)) or (n211 and n187))
+
+
+opt target : n50 (d3)
+Input list : i_7(d0) i_8(d0) i_6(d0) i_9(d0) 
+old bexp : (((i_8 and i_6) and i_7) and (not i_9))
+new bexp : (((not i_9) and i_6) and (i_8 and i_7))
+
+
+opt target : m_4 (d7)
+Input list : n23(d1) n30(d3) n26(d2) n52(d3) n47(d4) n22(d2) 
+old bexp : (((n52 and (not n47)) and (not ((n30 and n26) and n23))) and n22)
+new bexp : ((not (((n23 and n26) and n30) or n47)) and (n22 and n52))
+
+
+opt target : n40 (d3)
+Input list : i_3(d0) i_7(d0) i_6(d0) i_2(d0) 
+old bexp : (((not ((not i_7) and i_6)) and i_3) and (i_6 xor (not i_2)))
+new bexp : ((((not i_2) xor i_6) and i_3) and ((not i_6) or i_7))
+
+
+opt target : n47 (d4)
+Input list : i_4(d0) i_3(d0) i_2(d0) i_6(d0) i_7(d0) 
+old bexp : (((not ((not (i_7 and i_6)) and (not i_3))) and i_4) and (not ((((not i_2) xor i_6) and i_3) and ((not i_6) or i_7))))
+new bexp : ((((i_7 xor i_3) and i_6) or ((i_6 xor i_2) and i_3)) and i_4)
+
+
+opt target : n167 (d3)
+Input list : i_5(d0) i_6(d0) i_7(d0) i_4(d0) 
+old bexp : (((not ((not i_6) and i_4)) and i_5) and (not (((not i_7) and i_6) and (not i_4))))
+new bexp : ((((i_4 xor i_6) and i_5) and ((not i_7) or i_4)) xor i_5)
+
+
+opt target : n29 (d3)
+Input list : i_7(d0) i_8(d0) i_6(d0) i_4(d0) 
+old bexp : ((not ((i_8 and i_6) and i_7)) and (not i_4))
+new bexp : (((not (i_6 and i_8)) or ((not i_7) or i_4)) xor i_4)
+
+
+opt target : n31 (d3)
+Input list : i_4(d0) i_7(d0) i_8(d0) i_6(d0) 
+old bexp : ((not (((not (i_6 and i_8)) or ((not i_7) or i_4)) xor i_4)) and (not ((i_7 and i_4) and (i_8 and i_6))))
+new bexp : (((i_6 and i_8) and i_7) xor i_4)
+
+
+opt target : n32 (d3)
+Input list : i_4(d0) i_8(d0) i_7(d0) i_6(d0) 
+old bexp : ((((i_6 and i_8) and i_7) xor i_4) and (i_7 and i_6))
+new bexp : (((i_8 xor i_4) and i_6) and i_7)
+
+
+opt target : n93 (d3)
+Input list : i_7(d0) i_8(d0) i_6(d0) i_5(d0) 
+old bexp : ((not (((not i_8) and i_6) and i_7)) and (not (i_6 and i_5)))
+new bexp : ((((not i_6) or i_5) or ((not i_8) and i_7)) xor i_6)
+
+
+opt target : n142 (d3)
+Input list : i_7(d0) i_8(d0) i_5(d0) i_6(d0) 
+old bexp : ((not ((not (i_8 and i_7)) and i_5)) and ((((not i_6) or i_5) or ((not i_8) and i_7)) xor i_6))
+new bexp : ((not (((i_6 xor i_8) and i_7) or (i_5 xor i_8))) xor i_8)
+
+
+opt target : n102 (d6)
+Input list : n101(d3) n78(d3) n85(d3) n74(d2) 
+old bexp : (n101 and (not ((n85 and n78) and n74)))
+new bexp : (((n74 and n85) and (n78 and n101)) xor n101)
+
+

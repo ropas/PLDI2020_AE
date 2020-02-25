@@ -1,0 +1,10 @@
+cir to graph finished
+old graph depth
+---graph depth print---
+var : m_0 depth : 10
+var : m_1 depth : 9
+var : m_2 depth : 8
+var : m_3 depth : 7
+---------------------
+============================================= graph opt start ===================================================
+initial graph size : 323

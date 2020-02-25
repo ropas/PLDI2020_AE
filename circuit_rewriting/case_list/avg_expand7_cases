@@ -1,0 +1,42 @@
+opt target : n108 (d5)
+Input list : n107(d2) n69(d2) n76(d2) n63(d2) 
+old bexp : (n107 and (not((not(n76 and n69)) and n63)))
+new bexp : (((not(n76 and n69)) and (n63 and n107)) xor n107)
+
+
+opt target : n126 (d5)
+Input list : n63(d2) n76(d2) n69(d2) n107(d2) n125(d0) 
+old bexp : ((n107 and (not((not(n76 and n69)) and n63))) xor n125)
+new bexp : ((((not(n69 and n76)) and (n107 and n63)) xor n125) xor n107)
+
+
+opt target : n85 (d5)
+Input list : n84(d1) n69(d2) n76(d2) n63(d2) 
+old bexp : (n84 and (not((not(n76 and n69)) and n63)))
+new bexp : (((not(n76 and n69)) and (n84 and n63)) xor n84)
+
+
+opt target : n47 (d4)
+Input list : n46(d1) n40(d0) n37(d2) 
+old bexp : (n46 and (n40 and n37))
+new bexp : ((n40 and n46) and n37)
+
+
+opt target : n89 (d4)
+Input list : n46(d1) n40(d0) n37(d2) 
+old bexp : (not(n46 and (n40 and n37)))
+new bexp : (not((n40 and n46) and n37))
+
+
+opt target : n138 (d6)
+Input list : n130(d0) n135(d2) n127(d2) n77(d3) n63(d2) 
+old bexp : (not((n135 and (not((n63 and n130) and (not n77)))) and (not(n127 and (not((not n77) and n63))))))
+new bexp : (((((n130 xor n127) and n63) and (not n77)) xor n127) or (not n135))
+
+
+opt target : n137 (d6)
+Input list : n130(d0) n135(d2) n127(d2) n77(d3) n63(d2) 
+old bexp : ((n135 and (not((n63 and n130) and (not n77)))) and (not(n127 and (not((not n77) and n63)))))
+new bexp : ((((not((n130 xor n127) and n63)) or n77) xor n127) and n135)
+
+
