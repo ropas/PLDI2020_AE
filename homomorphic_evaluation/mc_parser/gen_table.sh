@@ -1,4 +1,7 @@
 #!/bin/bash
+echo " "
+echo "Evaluation result will be saved in paper_result directory"
+echo " "
 echo " Name              Eval_time(s)"
 echo "              before_opt     after_opt"
 ./he_base cardio.eqn 10 > paper_result/cardio

@@ -1,5 +1,7 @@
 #!/bin/bash
+echo " "
 echo "Optimization logs will be saved in paper_result directory"
+echo " "
 echo "  Name      Old_depth      New_depth      Opt_time(s)"
  ./main.native cardio.eqn paper_cases/leave-cardio > paper_result/cardio
  ./main.native dsort.eqn paper_cases/leave-dsort > paper_result/dsort

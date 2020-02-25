@@ -1,8 +1,9 @@
-(declare-const n36 Bool)
-(declare-const n35 Bool)
-(declare-const n40 Bool)
+(declare-const tmp675 Bool)
+(declare-const n78 Bool)
+(declare-const n84 Bool)
+(declare-const n97 Bool)
 (define-fun is_equal () Bool
-	(= (and (and n35 n36) n40) (and n36 (and n40 n35)))
+	(= (and (xor n84 (and n78 tmp675)) n97) (xor (and (and n97 tmp675) n78) (and n97 n84)))
 )
 (assert (not is_equal))
 (check-sat)
