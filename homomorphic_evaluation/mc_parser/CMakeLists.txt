@@ -4,7 +4,7 @@ project(simple_wc_example CXX)
 
 cmake_minimum_required(VERSION 3.1)
 
-set(helib_DIR "/home/dklee/PLDI2020_AE/homomorphic_evaluation/lib/helib_pack/share/cmake/helib")
+set(helib_DIR "../lib/helib_pack/share/cmake/helib")
 find_package(helib 1.0.0 EXACT REQUIRED)
 find_package(BISON REQUIRED)
 find_package(FLEX REQUIRED)
