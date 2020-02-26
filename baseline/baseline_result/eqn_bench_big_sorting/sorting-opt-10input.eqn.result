@@ -1,0 +1,752 @@
+cir to graph finished
+old graph depth
+---graph depth print---
+var : m_0 depth : 13
+var : m_1 depth : 13
+var : m_2 depth : 13
+var : m_3 depth : 13
+var : m_4 depth : 13
+var : m_5 depth : 13
+var : m_6 depth : 13
+var : m_7 depth : 13
+var : m_8 depth : 13
+var : m_9 depth : 13
+var : m_10 depth : 13
+var : m_11 depth : 13
+var : m_12 depth : 13
+var : m_13 depth : 13
+var : m_14 depth : 13
+var : m_15 depth : 13
+var : m_16 depth : 13
+var : m_17 depth : 13
+var : m_18 depth : 13
+var : m_19 depth : 13
+var : m_20 depth : 13
+var : m_21 depth : 13
+var : m_22 depth : 13
+var : m_23 depth : 13
+var : m_24 depth : 13
+var : m_25 depth : 13
+var : m_26 depth : 13
+var : m_27 depth : 13
+var : m_28 depth : 13
+var : m_29 depth : 13
+var : m_30 depth : 13
+var : m_31 depth : 13
+var : m_32 depth : 13
+var : m_33 depth : 13
+var : m_34 depth : 13
+var : m_35 depth : 13
+var : m_36 depth : 13
+var : m_37 depth : 13
+var : m_38 depth : 13
+var : m_39 depth : 13
+var : m_40 depth : 13
+var : m_41 depth : 13
+var : m_42 depth : 13
+var : m_43 depth : 13
+var : m_44 depth : 13
+var : m_45 depth : 13
+var : m_46 depth : 13
+var : m_47 depth : 13
+var : m_48 depth : 13
+var : m_49 depth : 13
+var : m_50 depth : 13
+var : m_51 depth : 13
+var : m_52 depth : 13
+var : m_53 depth : 13
+var : m_54 depth : 13
+var : m_55 depth : 13
+var : m_56 depth : 13
+var : m_57 depth : 13
+var : m_58 depth : 13
+var : m_59 depth : 13
+var : m_60 depth : 13
+var : m_61 depth : 13
+var : m_62 depth : 13
+var : m_63 depth : 13
+var : m_64 depth : 13
+var : m_65 depth : 13
+var : m_66 depth : 13
+var : m_67 depth : 13
+var : m_68 depth : 13
+var : m_69 depth : 13
+var : m_70 depth : 13
+var : m_71 depth : 13
+var : m_72 depth : 13
+var : m_73 depth : 13
+var : m_74 depth : 13
+var : m_75 depth : 13
+var : m_76 depth : 13
+var : m_77 depth : 13
+var : m_78 depth : 13
+var : m_79 depth : 13
+var : m_80 depth : 13
+var : m_81 depth : 13
+var : m_82 depth : 13
+var : m_83 depth : 13
+var : m_84 depth : 13
+var : m_85 depth : 13
+var : m_86 depth : 13
+var : m_87 depth : 13
+var : m_88 depth : 13
+var : m_89 depth : 13
+var : m_90 depth : 13
+var : m_91 depth : 13
+var : m_92 depth : 13
+var : m_93 depth : 13
+var : m_94 depth : 13
+var : m_95 depth : 13
+var : m_96 depth : 13
+var : m_97 depth : 13
+var : m_98 depth : 13
+var : m_99 depth : 13
+var : m_100 depth : 13
+var : m_101 depth : 13
+var : m_102 depth : 13
+var : m_103 depth : 13
+var : m_104 depth : 13
+var : m_105 depth : 13
+var : m_106 depth : 13
+var : m_107 depth : 13
+var : m_108 depth : 13
+var : m_109 depth : 13
+var : m_110 depth : 13
+var : m_111 depth : 13
+var : m_112 depth : 13
+var : m_113 depth : 13
+var : m_114 depth : 13
+var : m_115 depth : 13
+var : m_116 depth : 13
+var : m_117 depth : 13
+var : m_118 depth : 13
+var : m_119 depth : 13
+var : m_120 depth : 13
+var : m_121 depth : 13
+var : m_122 depth : 13
+var : m_123 depth : 13
+var : m_124 depth : 13
+var : m_125 depth : 13
+var : m_126 depth : 13
+var : m_127 depth : 13
+var : m_128 depth : 13
+var : m_129 depth : 13
+var : m_130 depth : 13
+var : m_131 depth : 13
+var : m_132 depth : 13
+var : m_133 depth : 13
+var : m_134 depth : 13
+var : m_135 depth : 13
+var : m_136 depth : 13
+var : m_137 depth : 13
+var : m_138 depth : 13
+var : m_139 depth : 13
+var : m_140 depth : 13
+var : m_141 depth : 13
+var : m_142 depth : 13
+var : m_143 depth : 13
+var : m_144 depth : 13
+var : m_145 depth : 13
+var : m_146 depth : 13
+var : m_147 depth : 13
+var : m_148 depth : 13
+var : m_149 depth : 13
+var : m_150 depth : 13
+var : m_151 depth : 13
+var : m_152 depth : 13
+var : m_153 depth : 13
+var : m_154 depth : 13
+var : m_155 depth : 13
+var : m_156 depth : 13
+var : m_157 depth : 13
+var : m_158 depth : 13
+var : m_159 depth : 13
+var : m_160 depth : 13
+var : m_161 depth : 13
+var : m_162 depth : 13
+var : m_163 depth : 13
+var : m_164 depth : 13
+var : m_165 depth : 13
+var : m_166 depth : 13
+var : m_167 depth : 13
+var : m_168 depth : 13
+var : m_169 depth : 13
+var : m_170 depth : 13
+var : m_171 depth : 13
+var : m_172 depth : 13
+var : m_173 depth : 13
+var : m_174 depth : 13
+var : m_175 depth : 13
+var : m_176 depth : 13
+var : m_177 depth : 13
+var : m_178 depth : 13
+var : m_179 depth : 13
+var : m_180 depth : 13
+var : m_181 depth : 13
+var : m_182 depth : 13
+var : m_183 depth : 13
+var : m_184 depth : 13
+var : m_185 depth : 13
+var : m_186 depth : 13
+var : m_187 depth : 13
+var : m_188 depth : 13
+var : m_189 depth : 13
+var : m_190 depth : 13
+var : m_191 depth : 13
+var : m_192 depth : 13
+var : m_193 depth : 13
+var : m_194 depth : 13
+var : m_195 depth : 13
+var : m_196 depth : 13
+var : m_197 depth : 13
+var : m_198 depth : 13
+var : m_199 depth : 13
+var : m_200 depth : 13
+var : m_201 depth : 13
+var : m_202 depth : 13
+var : m_203 depth : 13
+var : m_204 depth : 13
+var : m_205 depth : 13
+var : m_206 depth : 13
+var : m_207 depth : 13
+var : m_208 depth : 13
+var : m_209 depth : 13
+var : m_210 depth : 13
+var : m_211 depth : 13
+var : m_212 depth : 13
+var : m_213 depth : 13
+var : m_214 depth : 13
+var : m_215 depth : 13
+var : m_216 depth : 13
+var : m_217 depth : 13
+var : m_218 depth : 13
+var : m_219 depth : 13
+var : m_220 depth : 13
+var : m_221 depth : 13
+var : m_222 depth : 13
+var : m_223 depth : 13
+var : m_224 depth : 13
+var : m_225 depth : 13
+var : m_226 depth : 13
+var : m_227 depth : 13
+var : m_228 depth : 13
+var : m_229 depth : 13
+var : m_230 depth : 13
+var : m_231 depth : 13
+var : m_232 depth : 13
+var : m_233 depth : 13
+var : m_234 depth : 13
+var : m_235 depth : 13
+var : m_236 depth : 13
+var : m_237 depth : 13
+var : m_238 depth : 13
+var : m_239 depth : 13
+var : m_240 depth : 13
+var : m_241 depth : 13
+var : m_242 depth : 13
+var : m_243 depth : 13
+var : m_244 depth : 13
+var : m_245 depth : 13
+var : m_246 depth : 13
+var : m_247 depth : 13
+var : m_248 depth : 13
+var : m_249 depth : 13
+var : m_250 depth : 13
+var : m_251 depth : 13
+var : m_252 depth : 13
+var : m_253 depth : 13
+var : m_254 depth : 13
+var : m_255 depth : 13
+var : m_256 depth : 13
+var : m_257 depth : 13
+var : m_258 depth : 13
+var : m_259 depth : 13
+var : m_260 depth : 13
+var : m_261 depth : 13
+var : m_262 depth : 13
+var : m_263 depth : 13
+var : m_264 depth : 13
+var : m_265 depth : 13
+var : m_266 depth : 13
+var : m_267 depth : 13
+var : m_268 depth : 13
+var : m_269 depth : 13
+var : m_270 depth : 13
+var : m_271 depth : 13
+var : m_272 depth : 13
+var : m_273 depth : 13
+var : m_274 depth : 13
+var : m_275 depth : 13
+var : m_276 depth : 13
+var : m_277 depth : 13
+var : m_278 depth : 13
+var : m_279 depth : 13
+var : m_280 depth : 13
+var : m_281 depth : 13
+var : m_282 depth : 13
+var : m_283 depth : 13
+var : m_284 depth : 13
+var : m_285 depth : 13
+var : m_286 depth : 13
+var : m_287 depth : 13
+var : m_288 depth : 13
+var : m_289 depth : 13
+var : m_290 depth : 13
+var : m_291 depth : 13
+var : m_292 depth : 13
+var : m_293 depth : 13
+var : m_294 depth : 13
+var : m_295 depth : 13
+var : m_296 depth : 13
+var : m_297 depth : 13
+var : m_298 depth : 13
+var : m_299 depth : 13
+var : m_300 depth : 13
+var : m_301 depth : 13
+var : m_302 depth : 13
+var : m_303 depth : 13
+var : m_304 depth : 13
+var : m_305 depth : 13
+var : m_306 depth : 13
+var : m_307 depth : 13
+var : m_308 depth : 13
+var : m_309 depth : 13
+var : m_310 depth : 13
+var : m_311 depth : 13
+var : m_312 depth : 13
+var : m_313 depth : 13
+var : m_314 depth : 13
+var : m_315 depth : 13
+var : m_316 depth : 13
+var : m_317 depth : 13
+var : m_318 depth : 13
+var : m_319 depth : 13
+var : m_320 depth : 13
+var : m_321 depth : 13
+var : m_322 depth : 13
+var : m_323 depth : 13
+var : m_324 depth : 13
+var : m_325 depth : 13
+var : m_326 depth : 13
+var : m_327 depth : 13
+var : m_328 depth : 13
+var : m_329 depth : 13
+var : m_330 depth : 13
+var : m_331 depth : 13
+var : m_332 depth : 13
+var : m_333 depth : 13
+var : m_334 depth : 13
+var : m_335 depth : 13
+var : m_336 depth : 13
+var : m_337 depth : 13
+var : m_338 depth : 13
+var : m_339 depth : 13
+var : m_340 depth : 13
+var : m_341 depth : 13
+var : m_342 depth : 13
+var : m_343 depth : 13
+var : m_344 depth : 13
+var : m_345 depth : 13
+var : m_346 depth : 13
+var : m_347 depth : 13
+var : m_348 depth : 13
+var : m_349 depth : 13
+var : m_350 depth : 13
+var : m_351 depth : 13
+var : m_352 depth : 13
+var : m_353 depth : 13
+var : m_354 depth : 13
+var : m_355 depth : 13
+var : m_356 depth : 13
+var : m_357 depth : 13
+var : m_358 depth : 13
+var : m_359 depth : 13
+var : m_360 depth : 13
+var : m_361 depth : 13
+var : m_362 depth : 13
+var : m_363 depth : 13
+var : m_364 depth : 13
+var : m_365 depth : 13
+var : m_366 depth : 13
+var : m_367 depth : 13
+var : m_368 depth : 13
+var : m_369 depth : 13
+var : m_370 depth : 13
+var : m_371 depth : 13
+var : m_372 depth : 13
+var : m_373 depth : 13
+var : m_374 depth : 13
+var : m_375 depth : 13
+var : m_376 depth : 13
+var : m_377 depth : 13
+var : m_378 depth : 13
+var : m_379 depth : 13
+var : m_380 depth : 13
+var : m_381 depth : 13
+var : m_382 depth : 13
+var : m_383 depth : 13
+var : m_384 depth : 13
+var : m_385 depth : 13
+var : m_386 depth : 13
+var : m_387 depth : 13
+var : m_388 depth : 13
+var : m_389 depth : 13
+var : m_390 depth : 13
+var : m_391 depth : 13
+var : m_392 depth : 13
+var : m_393 depth : 13
+var : m_394 depth : 13
+var : m_395 depth : 13
+var : m_396 depth : 13
+var : m_397 depth : 13
+var : m_398 depth : 13
+var : m_399 depth : 13
+var : m_400 depth : 13
+var : m_401 depth : 13
+var : m_402 depth : 13
+var : m_403 depth : 13
+var : m_404 depth : 13
+var : m_405 depth : 13
+var : m_406 depth : 13
+var : m_407 depth : 13
+var : m_408 depth : 13
+var : m_409 depth : 13
+var : m_410 depth : 13
+var : m_411 depth : 13
+var : m_412 depth : 13
+var : m_413 depth : 13
+var : m_414 depth : 13
+var : m_415 depth : 13
+var : m_416 depth : 13
+var : m_417 depth : 13
+var : m_418 depth : 13
+var : m_419 depth : 13
+var : m_420 depth : 13
+var : m_421 depth : 13
+var : m_422 depth : 13
+var : m_423 depth : 13
+var : m_424 depth : 13
+var : m_425 depth : 13
+var : m_426 depth : 13
+var : m_427 depth : 13
+var : m_428 depth : 13
+var : m_429 depth : 13
+var : m_430 depth : 13
+var : m_431 depth : 13
+var : m_432 depth : 13
+var : m_433 depth : 13
+var : m_434 depth : 13
+var : m_435 depth : 13
+var : m_436 depth : 13
+var : m_437 depth : 13
+var : m_438 depth : 13
+var : m_439 depth : 13
+var : m_440 depth : 13
+var : m_441 depth : 13
+var : m_442 depth : 13
+var : m_443 depth : 13
+var : m_444 depth : 13
+var : m_445 depth : 13
+var : m_446 depth : 13
+var : m_447 depth : 13
+var : m_448 depth : 13
+var : m_449 depth : 13
+var : m_450 depth : 13
+var : m_451 depth : 13
+var : m_452 depth : 13
+var : m_453 depth : 13
+var : m_454 depth : 13
+var : m_455 depth : 13
+var : m_456 depth : 13
+var : m_457 depth : 13
+var : m_458 depth : 13
+var : m_459 depth : 13
+var : m_460 depth : 13
+var : m_461 depth : 13
+var : m_462 depth : 13
+var : m_463 depth : 13
+var : m_464 depth : 13
+var : m_465 depth : 13
+var : m_466 depth : 13
+var : m_467 depth : 13
+var : m_468 depth : 13
+var : m_469 depth : 13
+var : m_470 depth : 13
+var : m_471 depth : 13
+var : m_472 depth : 13
+var : m_473 depth : 13
+var : m_474 depth : 13
+var : m_475 depth : 13
+var : m_476 depth : 13
+var : m_477 depth : 13
+var : m_478 depth : 13
+var : m_479 depth : 13
+var : m_480 depth : 13
+var : m_481 depth : 13
+var : m_482 depth : 13
+var : m_483 depth : 13
+var : m_484 depth : 13
+var : m_485 depth : 13
+var : m_486 depth : 13
+var : m_487 depth : 13
+var : m_488 depth : 13
+var : m_489 depth : 13
+var : m_490 depth : 13
+var : m_491 depth : 13
+var : m_492 depth : 13
+var : m_493 depth : 13
+var : m_494 depth : 13
+var : m_495 depth : 13
+var : m_496 depth : 13
+var : m_497 depth : 13
+var : m_498 depth : 13
+var : m_499 depth : 13
+var : m_500 depth : 13
+var : m_501 depth : 13
+var : m_502 depth : 13
+var : m_503 depth : 13
+var : m_504 depth : 13
+var : m_505 depth : 13
+var : m_506 depth : 13
+var : m_507 depth : 13
+var : m_508 depth : 13
+var : m_509 depth : 13
+var : m_510 depth : 13
+var : m_511 depth : 13
+var : m_512 depth : 13
+var : m_513 depth : 13
+var : m_514 depth : 13
+var : m_515 depth : 13
+var : m_516 depth : 13
+var : m_517 depth : 13
+var : m_518 depth : 13
+var : m_519 depth : 13
+var : m_520 depth : 13
+var : m_521 depth : 13
+var : m_522 depth : 13
+var : m_523 depth : 13
+var : m_524 depth : 13
+var : m_525 depth : 13
+var : m_526 depth : 13
+var : m_527 depth : 13
+var : m_528 depth : 13
+var : m_529 depth : 13
+var : m_530 depth : 13
+var : m_531 depth : 13
+var : m_532 depth : 13
+var : m_533 depth : 13
+var : m_534 depth : 13
+var : m_535 depth : 13
+var : m_536 depth : 13
+var : m_537 depth : 13
+var : m_538 depth : 13
+var : m_539 depth : 13
+var : m_540 depth : 13
+var : m_541 depth : 13
+var : m_542 depth : 13
+var : m_543 depth : 13
+var : m_544 depth : 13
+var : m_545 depth : 13
+var : m_546 depth : 13
+var : m_547 depth : 13
+var : m_548 depth : 13
+var : m_549 depth : 13
+var : m_550 depth : 13
+var : m_551 depth : 13
+var : m_552 depth : 13
+var : m_553 depth : 13
+var : m_554 depth : 13
+var : m_555 depth : 13
+var : m_556 depth : 13
+var : m_557 depth : 13
+var : m_558 depth : 13
+var : m_559 depth : 13
+var : m_560 depth : 13
+var : m_561 depth : 13
+var : m_562 depth : 13
+var : m_563 depth : 13
+var : m_564 depth : 13
+var : m_565 depth : 13
+var : m_566 depth : 13
+var : m_567 depth : 13
+var : m_568 depth : 13
+var : m_569 depth : 13
+var : m_570 depth : 13
+var : m_571 depth : 13
+var : m_572 depth : 13
+var : m_573 depth : 13
+var : m_574 depth : 13
+var : m_575 depth : 13
+var : m_576 depth : 13
+var : m_577 depth : 13
+var : m_578 depth : 13
+var : m_579 depth : 13
+var : m_580 depth : 13
+var : m_581 depth : 13
+var : m_582 depth : 13
+var : m_583 depth : 13
+var : m_584 depth : 13
+var : m_585 depth : 13
+var : m_586 depth : 13
+var : m_587 depth : 13
+var : m_588 depth : 13
+var : m_589 depth : 13
+var : m_590 depth : 13
+var : m_591 depth : 13
+var : m_592 depth : 13
+var : m_593 depth : 13
+var : m_594 depth : 13
+var : m_595 depth : 13
+var : m_596 depth : 13
+var : m_597 depth : 13
+var : m_598 depth : 13
+var : m_599 depth : 13
+var : m_600 depth : 13
+var : m_601 depth : 13
+var : m_602 depth : 13
+var : m_603 depth : 13
+var : m_604 depth : 13
+var : m_605 depth : 13
+var : m_606 depth : 13
+var : m_607 depth : 13
+var : m_608 depth : 13
+var : m_609 depth : 13
+var : m_610 depth : 13
+var : m_611 depth : 13
+var : m_612 depth : 13
+var : m_613 depth : 13
+var : m_614 depth : 13
+var : m_615 depth : 13
+var : m_616 depth : 13
+var : m_617 depth : 13
+var : m_618 depth : 13
+var : m_619 depth : 13
+var : m_620 depth : 13
+var : m_621 depth : 13
+var : m_622 depth : 13
+var : m_623 depth : 13
+var : m_624 depth : 13
+var : m_625 depth : 13
+var : m_626 depth : 13
+var : m_627 depth : 13
+var : m_628 depth : 13
+var : m_629 depth : 13
+var : m_630 depth : 13
+var : m_631 depth : 13
+var : m_632 depth : 13
+var : m_633 depth : 13
+var : m_634 depth : 13
+var : m_635 depth : 13
+var : m_636 depth : 13
+var : m_637 depth : 13
+var : m_638 depth : 13
+var : m_639 depth : 13
+---------------------
+============================================= graph opt start ===================================================
+initial graph size : 30488
+whole case num : 2
+reduced case num : 2
+
+
+graph_opt called
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 30488
+selected cripath : 
+m_396 n26606 n26605 n26343 n23625 n5113 n5112 n5111 n5110 n5102 n5101 n5099 n5085 n5083 n5082 n5080 n4646 n4645 n4536 n4535 n4481 n4480 n4479 n4453 n4452 n4451 n4439 n4438 n4437 n4431 n4430 n4429 n4427 n4426 
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_i_590
+tmpvar#1  -->  CVar_n20897
+tmpvar#2  -->  CVar_n23625
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and i_590 (and n20897 n23625))
+sub old bexp : (and i_590 (and n20897 n23625))
+sub new bexp : (and n23625 (and n20897 i_590))
+before depth : 13
+after depth : 12
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n20897
+tmpvar#1  -->  CVar_n5105
+tmpvar#2  -->  CVar_n5113
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n20897 (and n5105 n5113))
+sub old bexp : (and n20897 (and n5105 n5113))
+sub new bexp : (and n5113 (and n5105 n20897))
+before depth : 12
+after depth : 11
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n5093
+tmpvar#0  -->  CVar_n5104
+tmpvar#2  -->  CVar_n5113
+---------------------
+
+old bexp : (and (xor x y) z)
+new bexp : (xor (and x z) (and y z))
+tgt bexp     : (and (xor n5093 n5104) n5113)
+sub old bexp : (and (xor n5093 n5104) n5113)
+sub new bexp : (xor (and n5093 n5113) (and n5104 n5113))
+before depth : 11
+after depth : 11
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n5084
+tmpvar#0  -->  CVar_n5101
+tmpvar#2  -->  CVar_n5103
+---------------------
+
+old bexp : (and (xor x y) z)
+new bexp : (xor (and x z) (and y z))
+tgt bexp     : (and (xor n5084 n5101) n5103)
+sub old bexp : (and (xor n5084 n5101) n5103)
+sub new bexp : (xor (and n5084 n5103) (and n5101 n5103))
+before depth : 10
+after depth : 10
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n5099
+tmpvar#1  -->  CVar_n5078
+tmpvar#2  -->  CVar_n5084
+---------------------
+
+old bexp : (and z (xor x y))
+new bexp : (xor (and x z) (and y z))
+tgt bexp     : (and n5099 (xor n5078 n5084))
+sub old bexp : (and n5099 (xor n5078 n5084))
+sub new bexp : (xor (and n5078 n5099) (and n5084 n5099))
+before depth : 9
+after depth : 9
+graph replaced
+
+

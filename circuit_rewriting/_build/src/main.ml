@@ -7,7 +7,7 @@ open Unify
 open Graph_opt
 
 exception Error of string
-let filename = "paper_bench/" ^ Sys.argv.(1)
+let filename = Sys.argv.(1)
 let case_filename = Sys.argv.(2)
 
 (*let _ = Sys.command("mkdir ./z3_tmpdir/" ^ filename)*)
@@ -52,14 +52,16 @@ let new_depth = graph_max_depth new_graph olist
 let _ = print_endline("new mult depth : " ^ (string_of_int new_depth))
 let consumed_time = string_of_int (int_of_float(Unix.time() -. start_time))
 
-let filename_length = String.length Sys.argv.(1)
+
+let filename = let regexp = Str.regexp_string "paper_bench/" in Str.global_replace regexp "" filename 
+let filename_length = String.length filename
 let time_length = String.length consumed_time
 let old_depth_string = if (old_depth < 10) then " " ^ (string_of_int old_depth) else (string_of_int old_depth)
 let new_depth_string = if (new_depth < 10) then " " ^ (string_of_int new_depth) else (string_of_int new_depth)
 
 let rec empty_n_string n = if(n = 0) then "" else " " ^ empty_n_string (n-1) 
 
-let _ = prerr_endline(Sys.argv.(1) ^ (empty_n_string (19 - filename_length)) ^ (old_depth_string) ^ "             " ^ (new_depth_string) ^ empty_n_string (17 - time_length) ^  consumed_time)
+let _ = prerr_endline("             " ^ (new_depth_string) ^ empty_n_string (17 - time_length) ^  consumed_time)
 
 (* graph print test *) 
 

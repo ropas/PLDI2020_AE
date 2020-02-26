@@ -1,0 +1,49 @@
+cir to graph finished
+old graph depth
+---graph depth print---
+var : m_0 depth : 8
+var : m_1 depth : 8
+var : m_2 depth : 8
+var : m_3 depth : 8
+var : m_4 depth : 8
+var : m_5 depth : 8
+var : m_6 depth : 8
+var : m_7 depth : 8
+var : m_8 depth : 8
+var : m_9 depth : 8
+var : m_10 depth : 8
+var : m_11 depth : 8
+var : m_12 depth : 8
+var : m_13 depth : 8
+var : m_14 depth : 8
+var : m_15 depth : 8
+var : m_16 depth : 8
+var : m_17 depth : 8
+var : m_18 depth : 8
+var : m_19 depth : 8
+var : m_20 depth : 8
+var : m_21 depth : 8
+var : m_22 depth : 8
+var : m_23 depth : 8
+var : m_24 depth : 8
+var : m_25 depth : 8
+var : m_26 depth : 8
+var : m_27 depth : 8
+var : m_28 depth : 8
+var : m_29 depth : 8
+var : m_30 depth : 8
+var : m_31 depth : 8
+---------------------
+============================================= graph opt start ===================================================
+initial graph size : 638
+whole case num : 2
+reduced case num : 2
+
+
+graph_opt called
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 638
+selected cripath : 
+m_28 n668 n667 n624 n226 n225 n219 n218 n217 n216 n205 n204 n198 n197 n196 n194 n193 
+

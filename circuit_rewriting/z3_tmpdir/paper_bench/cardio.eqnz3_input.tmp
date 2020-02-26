@@ -1,9 +1,8 @@
-(declare-const n231 Bool)
-(declare-const n224 Bool)
-(declare-const n228 Bool)
-(declare-const n235 Bool)
+(declare-const n150 Bool)
+(declare-const n333 Bool)
+(declare-const n346 Bool)
 (define-fun is_equal () Bool
-	(= (and (xor (and n224 n228) n231) n235) (xor (and (and n235 n224) n228) (and n235 n231)))
+	(= (and n150 (not (and n333 n346))) (xor (and n346 (and n333 n150)) n150))
 )
 (assert (not is_equal))
 (check-sat)

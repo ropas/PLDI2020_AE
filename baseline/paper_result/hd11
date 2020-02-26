@@ -1,0 +1,908 @@
+cir to graph finished
+old graph depth
+---graph depth print---
+var : m_0 depth : 0
+var : m_1 depth : 0
+var : m_2 depth : 0
+var : m_3 depth : 0
+var : m_4 depth : 0
+var : m_5 depth : 0
+var : m_6 depth : 0
+var : m_7 depth : 0
+var : m_8 depth : 0
+var : m_9 depth : 0
+var : m_10 depth : 0
+var : m_11 depth : 0
+var : m_12 depth : 0
+var : m_13 depth : 0
+var : m_14 depth : 0
+var : m_15 depth : 0
+var : m_16 depth : 0
+var : m_17 depth : 0
+var : m_18 depth : 0
+var : m_19 depth : 0
+var : m_20 depth : 0
+var : m_21 depth : 0
+var : m_22 depth : 0
+var : m_23 depth : 0
+var : m_24 depth : 0
+var : m_25 depth : 0
+var : m_26 depth : 0
+var : m_27 depth : 0
+var : m_28 depth : 16
+var : m_29 depth : 18
+var : m_30 depth : 13
+var : m_31 depth : 11
+---------------------
+============================================= graph opt start ===================================================
+initial graph size : 652
+whole case num : 2
+reduced case num : 2
+
+
+graph_opt called
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 652
+selected cripath : 
+m_29 n737 n736 n735 n730 n729 n728 n717 n709 n708 n705 n696 n695 n692 n518 n517 n493 n492 n491 n485 n482 n481 n141 n139 
+
+now time : 1582710646.2pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n734
+tmpvar#1  -->  CVar_n709
+tmpvar#2  -->  CVar_n730
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n734 (and n709 n730))
+sub old bexp : (and n734 (and n709 n730))
+sub new bexp : (and n730 (and n709 n734))
+before depth : 17
+after depth : 16
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n709
+tmpvar#1  -->  CVar_n724
+tmpvar#2  -->  CVar_n729
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n709 (and n724 n729))
+sub old bexp : (and n709 (and n724 n729))
+sub new bexp : (and n729 (and n724 n709))
+before depth : 16
+after depth : 15
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n518
+tmpvar#0  -->  CVar_n691
+tmpvar#2  -->  CVar_n694
+---------------------
+
+old bexp : (and (and x y) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n518 n691) n694)
+sub old bexp : (and (and n518 n691) n694)
+sub new bexp : (and n518 (and n691 n694))
+before depth : 10
+after depth : 9
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 653
+selected cripath : 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n583 n582 n581 n577 n576 n257 n250 
+
+now time : 1582710646.28pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n710
+tmpvar#1  -->  CVar_n711
+tmpvar#2  -->  CVar_n713
+---------------------
+
+old bexp : (and z (xor x y))
+new bexp : (xor (and x z) (and y z))
+tgt bexp     : (and n710 (xor n711 n713))
+sub old bexp : (and n710 (xor n711 n713))
+sub new bexp : (xor (and n711 n710) (and n713 n710))
+before depth : 12
+after depth : 12
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+m_29 n737 n736 tmp3 n734 n718 n717 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n565 n564 n254 n252 
+
+now time : 1582710646.35graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+m_29 n737 n736 tmp2 n730 n729 n728 n717 n716 n715 tmp90 n711 n705 n704 n703 n697 n692 n518 n517 n493 n472 n460 n454 n453 n452 n281 n267 
+
+now time : 1582710646.41graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+n140 n150 n379 n380 n506 n507 n515 n516 n517 n518 n692 n697 n703 n704 n705 n711 tmp90 n715 n716 n717 n718 n734 tmp3 n736 n737 m_29 
+
+now time : 1582710646.49graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 tmp90 n711 n705 n704 n703 n697 n692 n518 n517 n516 n501 n500 n499 n497 n268 n259 n258 
+
+now time : 1582710646.57graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+n267 n281 n452 n453 n454 n460 n472 n493 n517 n518 n692 n697 n703 n704 n705 n708 n709 n717 n728 n729 n730 n731 m_28 n733 m_29 
+
+now time : 1582710646.65graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+m_29 n737 n736 tmp2 n730 n729 n728 n717 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n552 n533 n532 n531 n530 n141 n140 
+
+now time : 1582710646.73graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+n93 n95 n97 n508 n510 n514 n515 n516 n517 n518 n692 n697 n703 n704 n705 n711 tmp90 n715 n716 n717 n718 n734 tmp3 n736 n737 m_29 
+
+now time : 1582710646.8graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 tmp90 n711 n705 n704 n703 n697 n692 n518 n517 n516 n515 n507 n506 n380 n379 n150 n149 
+
+now time : 1582710646.87graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 654
+selected cripath : 
+n139 n161 n526 n528 n532 n533 n552 n584 n585 n700 n701 n702 n703 n704 n705 n708 n709 n717 n728 n729 n730 n731 m_28 n733 m_29 
+
+now time : 1582710646.95n101 n102 n104 n105 n114 n130 n132 n136 n137 n139 n140 n145 n146 n149 n157 n167 n181 n182 n217 n218 n219 n224 n225 n250 n252 n253 n258 n267 n269 n345 n346 n351 n352 n534 n535 n586 n588 n589 n592 n593 n595 n596 n600 n601 n603 n604 n607 n608 n610 n611 n616 n617 n619 n620 n625 n626 n628 n631 n632 n634 n635 n93 n94 n96 n98 n103 n106 n111 n115 n116 n117 n119 n120 n125 n131 n133 n138 n141 n147 n148 n150 n156 n158 n161 n166 n168 n171 n183 n185 n186 n190 n191 n196 n199 n200 n207 n208 n220 n221 n222 n226 n227 n231 n234 n244 n251 n254 n257 n259 n268 n270 n271 n281 n294 n347 n353 n359 n370 n372 n379 n450 n452 n455 n457 n461 n463 n466 n468 n473 n475 n477 n481 n483 n486 n488 n536 n548 n553 n554 n578 n587 n590 n594 n597 n602 n605 n609 n612 n618 n621 n627 n629 n633 n636 n642 n643 n645 n646 n650 n651 n655 n656 n659 n664 n665 n670 n671 n673 n674 n677 n678 n95 n97 n99 n100 n107 n112 n118 n121 n126 n134 n142 n151 n152 n159 n162 n169 n172 n174 n175 n184 n187 n192 n197 n203 n209 n211 n223 n228 n232 n233 n235 n239 n240 n245 n255 n256 n260 n263 n272 n277 n280 n282 n289 n295 n312 n313 n332 n334 n335 n348 n354 n355 n360 n362 n371 n373 n380 n405 n418 n429 n438 n451 n453 n456 n458 n462 n464 n467 n469 n474 n476 n478 n482 n484 n487 n489 n494 n497 n498 n503 n505 n508 n509 n511 n512 n519 n520 n522 n523 n526 n527 n529 n530 n537 n540 n541 n544 n545 n547 n549 n555 n559 n563 n564 n568 n569 n571 n572 n575 n576 n579 n580 n591 n598 n606 n613 n622 n623 n630 n637 n644 n647 n649 n652 n657 n658 n660 n666 n672 n675 n679 n108 n109 n122 n123 n135 n143 n153 n160 n163 n170 n173 n176 n188 n189 n193 n198 n201 n204 n210 n212 n229 n236 n241 n246 n247 n261 n264 n265 n273 n278 n283 n290 n296 n314 n330 n333 n336 n339 n341 n349 n356 n361 n363 n368 n374 n378 n381 n387 n388 n390 n391 n394 n395 n401 n402 n404 n406 n408 n409 n411 n412 n419 n424 n425 n428 n430 n432 n434 n435 n439 n440 n441 n442 n454 n459 n465 n470 n479 n480 n485 n490 n495 n496 n499 n502 n504 n506 n510 n513 n521 n524 n528 n531 n538 n542 n546 n550 n556 n560 n565 n570 n573 n577 n581 n599 n614 n624 n638 n648 n653 n661 n662 n667 n668 n676 n680 n110 n124 n144 n154 n177 n194 n202 n205 n230 n237 n262 n266 n274 n279 n284 n291 n303 n309 n315 n318 n319 n320 n323 n331 n337 n340 n342 n350 n357 n364 n369 n375 n382 n389 n392 n396 n403 n407 n410 n413 n416 n420 n421 n422 n423 n426 n433 n436 n443 n444 n460 n471 n491 n492 n500 n501 n507 n514 n525 n532 n539 n543 n551 n557 n561 n574 n582 n615 n639 n654 n663 n669 n681 n113 n127 n155 n164 n178 n195 n206 n213 n238 n242 n275 n285 n292 n308 n310 n316 n317 n321 n322 n324 n325 n338 n343 n358 n365 n366 n376 n383 n393 n397 n414 n415 n417 n427 n431 n437 n445 n472 n493 n515 n516 n533 n552 n558 n562 n640 n682 n683 n128 n165 n179 n214 n215 n243 n276 n286 n293 n297 n304 n305 n311 n326 n327 n344 n367 n377 n384 n446 n447 n448 n517 n566 n567 n583 n584 n641 n684 n693 n129 n180 n216 n248 n287 n298 n306 n307 n328 n385 n449 n518 n585 n685 n694 n699 tmp24 n249 n288 n299 n329 n386 n398 n399 n686 n687 n691 n692 n698 n700 tmp25 n695 n300 n301 n400 n688 n689 n697 n701 n702 n706 n712 n713 n725 n696 n302 n690 n703 n707 n719 n720 n726 n727 m_31 n704 n705 n708 n710 n721 n740 n741 tmp91 n709 n711 n714 n722 n723 n742 tmp90 n715 n724 tmp7 n716 n717 n718 n728 n729 n730 n734 n739 tmp3 tmp2 tmp6 m_30 n731 n735 n736 m_28 n737 n733 m_29 
+graph opt finished
+new graph depth
+---graph depth print---
+var : m_0 depth : 0
+var : m_1 depth : 0
+var : m_2 depth : 0
+var : m_3 depth : 0
+var : m_4 depth : 0
+var : m_5 depth : 0
+var : m_6 depth : 0
+var : m_7 depth : 0
+var : m_8 depth : 0
+var : m_9 depth : 0
+var : m_10 depth : 0
+var : m_11 depth : 0
+var : m_12 depth : 0
+var : m_13 depth : 0
+var : m_14 depth : 0
+var : m_15 depth : 0
+var : m_16 depth : 0
+var : m_17 depth : 0
+var : m_18 depth : 0
+var : m_19 depth : 0
+var : m_20 depth : 0
+var : m_21 depth : 0
+var : m_22 depth : 0
+var : m_23 depth : 0
+var : m_24 depth : 0
+var : m_25 depth : 0
+var : m_26 depth : 0
+var : m_27 depth : 0
+var : m_28 depth : 16
+var : m_29 depth : 17
+var : m_30 depth : 13
+var : m_31 depth : 11
+---------------------
+tmp91 = (and n710 n713)
+tmp90 = (and n710 n711)
+tmp7 = (and n709 n724)
+tmp6 = n729
+tmp3 = (and n709 n734)
+tmp25 = (and n691 n694)
+tmp24 = n518
+tmp2 = n730
+n99 = (and n97 n98)
+n98 = (and i_28 i_29)
+n97 = (and n95 n96)
+n96 = (and i_29 i_30)
+n95 = (and n93 n94)
+n94 = (and i_31 i_32)
+n93 = (and i_30 i_31)
+n742 = (and n740 n741)
+n741 = (not n727)
+n740 = (not n690)
+n739 = (not n717)
+n737 = (not n736)
+n736 = (and tmp2 tmp3)
+n735 = (and tmp6 tmp7)
+n734 = (not n718)
+n733 = (not m_28)
+n731 = (not n730)
+n730 = (and n724 n729)
+n729 = (not n728)
+n728 = (and n717 n727)
+n727 = (and n725 n726)
+n726 = (not n688)
+n725 = (not n329)
+n724 = (not n723)
+n723 = (and n719 n722)
+n722 = (not n721)
+n721 = (and n705 n720)
+n720 = (not n713)
+n719 = (not n702)
+n718 = (and n690 n717)
+n717 = (and n709 n716)
+n716 = (not n715)
+n715 = (xor tmp90 tmp91)
+n714 = (xor n711 n713)
+n713 = (and n449 n712)
+n712 = (not n686)
+n711 = (not n705)
+n710 = (not n707)
+n709 = (not n708)
+n708 = (and n705 n707)
+n707 = (and n400 n706)
+n706 = (not n687)
+n705 = (and n696 n704)
+n704 = (not n703)
+n703 = (and n697 n702)
+n702 = (and n698 n701)
+n701 = (not n700)
+n700 = (and n585 n699)
+n699 = (not n684)
+n698 = (not n694)
+n697 = (not n692)
+n696 = (not n695)
+n695 = (and tmp24 tmp25)
+n694 = (and n641 n693)
+n693 = (not n683)
+n692 = (and n518 n691)
+n691 = (not n685)
+n690 = (and n302 n689)
+n689 = (xor n329 n688)
+n688 = (xor n400 n687)
+n687 = (xor n449 n686)
+n686 = (xor n518 n685)
+n685 = (xor n585 n684)
+n684 = (xor n641 n683)
+n683 = (and n663 n682)
+n682 = (and n669 n681)
+n681 = (and n676 n680)
+n680 = (and n245 n679)
+n679 = (and n677 n678)
+n678 = (not n253)
+n677 = (not n252)
+n676 = (and n672 n675)
+n675 = (and n673 n674)
+n674 = (not n269)
+n673 = (not n267)
+n672 = (and n670 n671)
+n671 = (not n219)
+n670 = (not n217)
+n669 = (and n667 n668)
+n668 = (and n555 n559)
+n667 = (and n192 n666)
+n666 = (and n664 n665)
+n665 = (not n250)
+n664 = (not n224)
+n663 = (and n654 n662)
+n662 = (and n658 n661)
+n661 = (and n197 n660)
+n660 = (and n207 n659)
+n659 = (not n96)
+n658 = (and n655 n657)
+n657 = (and n168 n656)
+n656 = (not n114)
+n655 = (not n105)
+n654 = (and n648 n653)
+n653 = (and n649 n652)
+n652 = (and n650 n651)
+n651 = (not n137)
+n650 = (not n136)
+n649 = (and n131 n158)
+n648 = (and n644 n647)
+n647 = (and n645 n646)
+n646 = (not n94)
+n645 = (not n93)
+n644 = (and n642 n643)
+n643 = (not n258)
+n642 = (not n140)
+n641 = (not n640)
+n640 = (and n615 n639)
+n639 = (and n624 n638)
+n638 = (and n630 n637)
+n637 = (and n633 n636)
+n636 = (and n634 n635)
+n635 = (not i_11)
+n634 = (not i_10)
+n633 = (and n631 n632)
+n632 = (not i_9)
+n631 = (not i_8)
+n630 = (and n627 n629)
+n629 = (and n351 n628)
+n628 = (not i_14)
+n627 = (and n625 n626)
+n626 = (not i_13)
+n625 = (not i_12)
+n624 = (and n622 n623)
+n623 = (and n347 n536)
+n622 = (and n618 n621)
+n621 = (and n619 n620)
+n620 = (not i_7)
+n619 = (not i_6)
+n618 = (and n616 n617)
+n617 = (not i_4)
+n616 = (not i_3)
+n615 = (and n599 n614)
+n614 = (and n606 n613)
+n613 = (and n609 n612)
+n612 = (and n610 n611)
+n611 = (not i_29)
+n610 = (not i_27)
+n609 = (and n607 n608)
+n608 = (not i_26)
+n607 = (not i_25)
+n606 = (and n602 n605)
+n605 = (and n603 n604)
+n604 = (not i_33)
+n603 = (not i_32)
+n602 = (and n600 n601)
+n601 = (not i_31)
+n600 = (not i_30)
+n599 = (and n591 n598)
+n598 = (and n594 n597)
+n597 = (and n595 n596)
+n596 = (not i_19)
+n595 = (not i_18)
+n594 = (and n592 n593)
+n593 = (not i_17)
+n592 = (not i_16)
+n591 = (and n587 n590)
+n590 = (and n588 n589)
+n589 = (not i_24)
+n588 = (not i_23)
+n587 = (and n352 n586)
+n586 = (not i_20)
+n585 = (not n584)
+n584 = (and n552 n583)
+n583 = (and n567 n582)
+n582 = (and n574 n581)
+n581 = (and n577 n580)
+n580 = (and n578 n579)
+n579 = (not n259)
+n578 = (not n218)
+n577 = (and n575 n576)
+n576 = (not n257)
+n575 = (not n226)
+n574 = (and n570 n573)
+n573 = (and n571 n572)
+n572 = (not n231)
+n571 = (not n138)
+n570 = (and n568 n569)
+n569 = (not n222)
+n568 = (not n220)
+n567 = (and n558 n566)
+n566 = (and n562 n565)
+n565 = (and n563 n564)
+n564 = (not n254)
+n563 = (not n251)
+n562 = (not n561)
+n561 = (and n146 n560)
+n560 = (not n559)
+n559 = (and n133 n208)
+n558 = (not n557)
+n557 = (and n167 n556)
+n556 = (not n555)
+n555 = (and n553 n554)
+n554 = (not n181)
+n553 = (not n101)
+n552 = (and n533 n551)
+n551 = (and n543 n550)
+n550 = (and n546 n549)
+n549 = (and n547 n548)
+n548 = (not n182)
+n547 = (not n125)
+n546 = (and n544 n545)
+n545 = (not n120)
+n544 = (not n119)
+n543 = (and n539 n542)
+n542 = (and n540 n541)
+n541 = (not n171)
+n540 = (not n150)
+n539 = (not n538)
+n538 = (and n267 n537)
+n537 = (not n536)
+n536 = (and n534 n535)
+n535 = (not i_5)
+n534 = (not i_2)
+n533 = (and n525 n532)
+n532 = (and n528 n531)
+n531 = (and n529 n530)
+n530 = (not n141)
+n529 = (not n95)
+n528 = (and n526 n527)
+n527 = (not n234)
+n526 = (not n161)
+n525 = (and n521 n524)
+n524 = (and n522 n523)
+n523 = (not n115)
+n522 = (not n111)
+n521 = (and n519 n520)
+n520 = (not n106)
+n519 = (not n103)
+n518 = (not n517)
+n517 = (and n493 n516)
+n516 = (and n501 n515)
+n515 = (and n507 n514)
+n514 = (and n510 n513)
+n513 = (and n511 n512)
+n512 = (not n186)
+n511 = (not n183)
+n510 = (and n508 n509)
+n509 = (not n294)
+n508 = (not n97)
+n507 = (and n504 n506)
+n506 = (and n380 n505)
+n505 = (not n370)
+n504 = (and n502 n503)
+n503 = (not n199)
+n502 = (not n174)
+n501 = (and n374 n500)
+n500 = (and n496 n499)
+n499 = (and n497 n498)
+n498 = (not n271)
+n497 = (not n268)
+n496 = (and n494 n495)
+n495 = (not n263)
+n494 = (not n227)
+n493 = (and n472 n492)
+n492 = (and n480 n491)
+n491 = (and n485 n490)
+n490 = (and n487 n489)
+n489 = (not n488)
+n488 = (and n102 n106)
+n487 = (not n486)
+n486 = (and n136 n161)
+n485 = (and n482 n484)
+n484 = (not n483)
+n483 = (and n219 n222)
+n482 = (not n481)
+n481 = (and n137 n141)
+n480 = (and n474 n479)
+n479 = (and n476 n478)
+n478 = (not n477)
+n477 = (and n251 n252)
+n476 = (not n475)
+n475 = (and n148 n149)
+n474 = (not n473)
+n473 = (and n132 n147)
+n472 = (and n460 n471)
+n471 = (and n465 n470)
+n470 = (and n467 n469)
+n469 = (not n468)
+n468 = (and n104 n111)
+n467 = (not n466)
+n466 = (and n226 n250)
+n465 = (and n462 n464)
+n464 = (not n463)
+n463 = (and n138 n157)
+n462 = (not n461)
+n461 = (and n253 n257)
+n460 = (and n454 n459)
+n459 = (and n456 n458)
+n458 = (not n457)
+n457 = (and n140 n171)
+n456 = (not n455)
+n455 = (and n130 n231)
+n454 = (and n451 n453)
+n453 = (not n452)
+n452 = (and n269 n281)
+n451 = (not n450)
+n450 = (and n101 n120)
+n449 = (not n448)
+n448 = (and n417 n447)
+n447 = (and n422 n446)
+n446 = (and n431 n445)
+n445 = (and n437 n444)
+n444 = (and n440 n443)
+n443 = (and n441 n442)
+n442 = (not n289)
+n441 = (not n232)
+n440 = (and n438 n439)
+n439 = (not n282)
+n438 = (not n221)
+n437 = (and n433 n436)
+n436 = (and n434 n435)
+n435 = (not n126)
+n434 = (not n112)
+n433 = (and n378 n432)
+n432 = (not n239)
+n431 = (and n427 n430)
+n430 = (and n428 n429)
+n429 = (not n270)
+n428 = (not n228)
+n427 = (and n423 n426)
+n426 = (and n424 n425)
+n425 = (not n260)
+n424 = (not n255)
+n423 = (not n264)
+n422 = (and n418 n421)
+n421 = (and n419 n420)
+n420 = (not n188)
+n419 = (not n184)
+n418 = (not n200)
+n417 = (and n415 n416)
+n416 = (and n109 n123)
+n415 = (and n407 n414)
+n414 = (and n410 n413)
+n413 = (and n411 n412)
+n412 = (not n172)
+n411 = (not n162)
+n410 = (and n408 n409)
+n409 = (not n151)
+n408 = (not n142)
+n407 = (and n403 n406)
+n406 = (and n404 n405)
+n405 = (not n359)
+n404 = (not n355)
+n403 = (and n401 n402)
+n402 = (not n334)
+n401 = (not n211)
+n400 = (not n399)
+n399 = (and n367 n398)
+n398 = (and n386 n397)
+n397 = (and n393 n396)
+n396 = (and n394 n395)
+n395 = (not n295)
+n394 = (not n187)
+n393 = (and n389 n392)
+n392 = (and n390 n391)
+n391 = (not n280)
+n390 = (not n223)
+n389 = (and n387 n388)
+n388 = (not n277)
+n387 = (not n256)
+n386 = (and n369 n385)
+n385 = (and n377 n384)
+n384 = (not n383)
+n383 = (and n136 n382)
+n382 = (not n381)
+n381 = (and n378 n380)
+n380 = (not n379)
+n379 = (and n139 n150)
+n378 = (not n235)
+n377 = (not n376)
+n376 = (and n370 n375)
+n375 = (not n374)
+n374 = (and n371 n373)
+n373 = (not n372)
+n372 = (and n105 n119)
+n371 = (not n116)
+n370 = (and n125 n98)
+n369 = (not n368)
+n368 = (and n183 n188)
+n367 = (and n344 n366)
+n366 = (and n274 n365)
+n365 = (and n358 n364)
+n364 = (and n361 n363)
+n363 = (not n362)
+n362 = (and n126 n95)
+n361 = (not n360)
+n360 = (and n103 n359)
+n359 = (and n182 n185)
+n358 = (and n350 n357)
+n357 = (not n356)
+n356 = (and n354 n355)
+n355 = (and n141 n171)
+n354 = (not n353)
+n353 = (and n351 n352)
+n352 = (not i_21)
+n351 = (not i_15)
+n350 = (not n349)
+n349 = (and n211 n348)
+n348 = (not n347)
+n347 = (and n345 n346)
+n346 = (not i_28)
+n345 = (not i_22)
+n344 = (and n338 n343)
+n343 = (and n340 n342)
+n342 = (and n153 n341)
+n341 = (not n175)
+n340 = (and n241 n339)
+n339 = (not n233)
+n338 = (and n331 n337)
+n337 = (and n333 n336)
+n336 = (not n335)
+n335 = (and n161 n334)
+n334 = (and n138 n222)
+n333 = (not n332)
+n332 = (and n107 n119)
+n331 = (and n204 n330)
+n330 = (not n312)
+n329 = (and n307 n328)
+n328 = (and n311 n327)
+n327 = (and n317 n326)
+n326 = (and n322 n325)
+n325 = (and n262 n324)
+n324 = (and n144 n323)
+n323 = (not n247)
+n322 = (and n318 n321)
+n321 = (and n319 n320)
+n320 = (not n173)
+n319 = (not n163)
+n318 = (not n212)
+n317 = (and n314 n316)
+n316 = (and n202 n315)
+n315 = (not n176)
+n314 = (not n313)
+n313 = (and n270 n312)
+n312 = (and n257 n282)
+n311 = (and n308 n310)
+n310 = (and n238 n309)
+n309 = (not n296)
+n308 = (and n285 n291)
+n307 = (and n303 n306)
+n306 = (and n304 n305)
+n305 = (not n127)
+n304 = (not n113)
+n303 = (not n189)
+n302 = (not n301)
+n301 = (and n216 n300)
+n300 = (and n249 n299)
+n299 = (and n288 n298)
+n298 = (not n297)
+n297 = (and n293 n296)
+n296 = (and n264 n295)
+n295 = (and n228 n294)
+n294 = (and n217 n220)
+n293 = (not n292)
+n292 = (and n230 n291)
+n291 = (not n290)
+n290 = (and n265 n289)
+n289 = (and n226 n257)
+n288 = (not n287)
+n287 = (and n276 n286)
+n286 = (not n285)
+n285 = (and n279 n284)
+n284 = (not n283)
+n283 = (and n280 n282)
+n282 = (and n254 n281)
+n281 = (and n258 n267)
+n280 = (and n251 n260)
+n279 = (not n278)
+n278 = (and n255 n277)
+n277 = (and n257 n263)
+n276 = (not n275)
+n275 = (and n262 n274)
+n274 = (and n266 n273)
+n273 = (not n272)
+n272 = (and n270 n271)
+n271 = (and n254 n258)
+n270 = (and n268 n269)
+n269 = (and i_2 i_3)
+n268 = (and n259 n267)
+n267 = (and i_3 i_4)
+n266 = (not n265)
+n265 = (and n227 n264)
+n264 = (and n250 n263)
+n263 = (and i_11 n226)
+n262 = (not n261)
+n261 = (and n256 n260)
+n260 = (and n257 n259)
+n259 = (and n253 n258)
+n258 = (and i_4 i_5)
+n257 = (and n250 n252)
+n256 = (and n226 n255)
+n255 = (and n251 n254)
+n254 = (and n252 n253)
+n253 = (and i_5 i_6)
+n252 = (and i_6 i_7)
+n251 = (and n224 n250)
+n250 = (and i_7 i_8)
+n249 = (not n248)
+n248 = (and n243 n247)
+n247 = (and n232 n246)
+n246 = (not n245)
+n245 = (and n166 n244)
+n244 = (not n225)
+n243 = (not n242)
+n242 = (and n238 n241)
+n241 = (not n240)
+n240 = (and n141 n239)
+n239 = (and n161 n231)
+n238 = (and n230 n237)
+n237 = (not n236)
+n236 = (and n233 n235)
+n235 = (and n222 n234)
+n234 = (and n217 n219)
+n233 = (and n138 n232)
+n232 = (and n220 n231)
+n231 = (and n136 n157)
+n230 = (not n229)
+n229 = (and n223 n228)
+n228 = (and n226 n227)
+n227 = (and n218 n219)
+n226 = (and n224 n225)
+n225 = (and i_10 i_9)
+n224 = (and i_8 i_9)
+n223 = (and n221 n222)
+n222 = (and n130 n157)
+n221 = (and n218 n220)
+n220 = (and n130 n219)
+n219 = (and i_11 i_12)
+n218 = (and i_9 n217)
+n217 = (and i_10 i_11)
+n216 = (and n180 n215)
+n215 = (and n195 n214)
+n214 = (not n213)
+n213 = (and n206 n212)
+n212 = (and n210 n211)
+n211 = (and n120 n185)
+n210 = (not n209)
+n209 = (and n207 n208)
+n208 = (not n145)
+n207 = (not n98)
+n206 = (not n205)
+n205 = (and n202 n204)
+n204 = (not n203)
+n203 = (and n111 n121)
+n202 = (not n201)
+n201 = (and n198 n200)
+n200 = (and n181 n199)
+n199 = (and n103 n167)
+n198 = (not n197)
+n197 = (and n156 n196)
+n196 = (not n104)
+n195 = (not n194)
+n194 = (and n189 n193)
+n193 = (not n192)
+n192 = (and n190 n191)
+n191 = (not n149)
+n190 = (not n102)
+n189 = (and n187 n188)
+n188 = (and n132 n174)
+n187 = (and n184 n186)
+n186 = (and n181 n185)
+n185 = (and n101 n167)
+n184 = (and n147 n183)
+n183 = (and n167 n182)
+n182 = (and i_21 n181)
+n181 = (and i_22 i_23)
+n180 = (and n129 n179)
+n179 = (and n165 n178)
+n178 = (not n177)
+n177 = (and n173 n176)
+n176 = (and n151 n175)
+n175 = (and n171 n174)
+n174 = (and i_23 n147)
+n173 = (and n170 n172)
+n172 = (and n147 n171)
+n171 = (and n132 n149)
+n170 = (not n169)
+n169 = (and n166 n168)
+n168 = (not n167)
+n167 = (and i_23 i_24)
+n166 = (not n139)
+n165 = (not n164)
+n164 = (and n155 n163)
+n163 = (and n160 n162)
+n162 = (and n150 n161)
+n161 = (and n137 n139)
+n160 = (not n159)
+n159 = (and n156 n158)
+n158 = (not n157)
+n157 = (and i_13 i_14)
+n156 = (not n146)
+n155 = (not n154)
+n154 = (and n144 n153)
+n153 = (not n152)
+n152 = (and n147 n151)
+n151 = (and n148 n150)
+n150 = (and n140 n149)
+n149 = (and i_18 i_19)
+n148 = (and n132 n146)
+n147 = (and n145 n146)
+n146 = (and i_20 i_21)
+n145 = (and i_21 i_22)
+n144 = (not n143)
+n143 = (and n135 n142)
+n142 = (and n138 n141)
+n141 = (and n139 n140)
+n140 = (and i_17 i_18)
+n139 = (and i_16 i_17)
+n138 = (and n136 n137)
+n137 = (and i_15 i_16)
+n136 = (and i_14 i_15)
+n135 = (not n134)
+n134 = (and n131 n133)
+n133 = (not n132)
+n132 = (and i_19 i_20)
+n131 = (not n130)
+n130 = (and i_12 i_13)
+n129 = (not n128)
+n128 = (and n113 n127)
+n127 = (and n124 n126)
+n126 = (and n119 n125)
+n125 = (and n93 n96)
+n124 = (not n123)
+n123 = (and n118 n122)
+n122 = (not n121)
+n121 = (and n119 n120)
+n120 = (and n102 n105)
+n119 = (and n104 n98)
+n118 = (not n117)
+n117 = (and n116 n96)
+n116 = (and n115 n93)
+n115 = (and n114 n94)
+n114 = (and i_32 i_33)
+n113 = (and n110 n112)
+n112 = (and n106 n111)
+n111 = (and n96 n98)
+n110 = (not n109)
+n109 = (and n100 n108)
+n108 = (not n107)
+n107 = (and n103 n106)
+n106 = (and n104 n105)
+n105 = (and i_26 i_27)
+n104 = (and i_27 i_28)
+n103 = (and n101 n102)
+n102 = (and i_25 i_26)
+n101 = (and i_24 i_25)
+n100 = (not n99)
+m_9 = false
+m_8 = false
+m_7 = false
+m_6 = false
+m_5 = false
+m_4 = false
+m_31 = (xor n302 n689)
+m_30 = (xor n739 n742)
+m_3 = false
+m_29 = (and n733 n737)
+m_28 = (and n718 n731)
+m_27 = false
+m_26 = false
+m_25 = false
+m_24 = false
+m_23 = false
+m_22 = false
+m_21 = false
+m_20 = false
+m_2 = false
+m_19 = false
+m_18 = false
+m_17 = false
+m_16 = false
+m_15 = false
+m_14 = false
+m_13 = false
+m_12 = false
+m_11 = false
+m_10 = false
+m_1 = false
+m_0 = false
+old mult depth : 18
+new mult depth : 17

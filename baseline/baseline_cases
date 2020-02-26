@@ -1,0 +1,10 @@
+opt target : r (d3)
+Input list : x(d1) y(d0) z(d0)
+old bexp : ((x and y) and z) 
+new bexp : (x and (y and z))
+
+
+opt target : r (d1)
+Input list : x(d0) y(d0) z(d0)
+old bexp : ((x xor y) and z)
+new bexp : ((x and z) xor (y and z))

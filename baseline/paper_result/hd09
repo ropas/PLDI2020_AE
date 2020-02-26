@@ -1,0 +1,790 @@
+cir to graph finished
+old graph depth
+---graph depth print---
+var : om_0 depth : 12
+var : om_1 depth : 14
+var : om_2 depth : 13
+var : om_3 depth : 13
+var : om_4 depth : 13
+var : om_5 depth : 13
+var : om_6 depth : 12
+var : om_7 depth : 11
+var : om_8 depth : 11
+var : om_9 depth : 9
+var : om_10 depth : 10
+var : om_11 depth : 9
+var : om_12 depth : 11
+var : om_13 depth : 11
+var : om_14 depth : 12
+var : om_15 depth : 12
+var : om_16 depth : 0
+var : om_17 depth : 0
+var : om_18 depth : 0
+var : om_19 depth : 0
+var : om_20 depth : 0
+var : om_21 depth : 0
+var : om_22 depth : 0
+var : om_23 depth : 0
+var : om_24 depth : 0
+var : om_25 depth : 0
+var : om_26 depth : 0
+var : om_27 depth : 0
+var : om_28 depth : 0
+var : om_29 depth : 0
+var : om_30 depth : 0
+var : om_31 depth : 0
+---------------------
+============================================= graph opt start ===================================================
+initial graph size : 236
+whole case num : 2
+reduced case num : 2
+
+
+graph_opt called
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 236
+selected cripath : 
+om_1 n185 n181 n180 om_0 n160 n159 n158 n155 n154 n153 n152 n151 n97 n96 n80 n79 n78 n76 
+
+now time : 1582710601.46pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n179
+tmpvar#1  -->  CVar_n160
+tmpvar#2  -->  CVar_n65
+---------------------
+
+old bexp : (and z (and x y))
+new bexp : (and x (and y z))
+tgt bexp     : (and n179 (and n160 n65))
+sub old bexp : (and n179 (and n160 n65))
+sub new bexp : (and n160 (and n65 n179))
+before depth : 13
+after depth : 12
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n159
+tmpvar#0  -->  CVar_n98
+tmpvar#2  -->  CVar_n65
+---------------------
+
+old bexp : (and (and x y) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n159 n98) n65)
+sub old bexp : (and (and n159 n98) n65)
+sub new bexp : (and n159 (and n98 n65))
+before depth : 12
+after depth : 11
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n159
+tmpvar#1  -->  CVar_n66
+tmpvar#2  -->  CVar_n97
+---------------------
+
+old bexp : (and z (xor x y))
+new bexp : (xor (and x z) (and y z))
+tgt bexp     : (and n159 (xor n66 n97))
+sub old bexp : (and n159 (xor n66 n97))
+sub new bexp : (xor (and n66 n159) (and n97 n159))
+before depth : 11
+after depth : 11
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n66
+tmpvar#0  -->  CVar_n97
+tmpvar#2  -->  CVar_n65
+---------------------
+
+old bexp : (and (and y x) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n66 n97) n65)
+sub old bexp : (and (and n66 n97) n65)
+sub new bexp : (and n97 (and n66 n65))
+before depth : 7
+after depth : 6
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n66
+tmpvar#1  -->  CVar_n69
+tmpvar#2  -->  CVar_n96
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n66 (and n69 n96))
+sub old bexp : (and n66 (and n69 n96))
+sub new bexp : (and n96 (and n69 n66))
+before depth : 6
+after depth : 5
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 242
+selected cripath : 
+om_1 n185 n184 n183 n182 n160 tmp15 n159 n150 n137 n136 n135 n134 n130 n117 n116 n115 n114 n113 n112 n111 
+
+now time : 1582710601.5pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n150
+tmpvar#0  -->  CVar_n158
+tmpvar#2  -->  CVar_n97
+---------------------
+
+old bexp : (and (and x y) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n150 n158) n97)
+sub old bexp : (and (and n150 n158) n97)
+sub new bexp : (and n150 (and n158 n97))
+before depth : 11
+after depth : 10
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n106
+tmpvar#1  -->  CVar_n107
+tmpvar#2  -->  CVar_n114
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n106 (and n107 n114))
+sub old bexp : (and n106 (and n107 n114))
+sub new bexp : (and n114 (and n107 n106))
+before depth : 5
+after depth : 4
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n107
+tmpvar#1  -->  CVar_n108
+tmpvar#2  -->  CVar_n113
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n107 (and n108 n113))
+sub old bexp : (and n107 (and n108 n113))
+sub new bexp : (and n113 (and n108 n107))
+before depth : 4
+after depth : 3
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n108
+tmpvar#1  -->  CVar_n109
+tmpvar#2  -->  CVar_n112
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n108 (and n109 n112))
+sub old bexp : (and n108 (and n109 n112))
+sub new bexp : (and n112 (and n109 n108))
+before depth : 3
+after depth : 2
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 246
+selected cripath : 
+om_3 n196 n195 n194 n192 n159 n150 n137 n136 n129 n128 n117 n105 n104 n103 n102 n101 n66 
+
+now time : 1582710601.53pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n105
+tmpvar#0  -->  CVar_n116
+tmpvar#2  -->  CVar_n127
+---------------------
+
+old bexp : (and (and x y) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n105 n116) n127)
+sub old bexp : (and (and n105 n116) n127)
+sub new bexp : (and n105 (and n116 n127))
+before depth : 7
+after depth : 6
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n102
+tmpvar#0  -->  CVar_n69
+tmpvar#2  -->  CVar_n99
+---------------------
+
+old bexp : (and (and x y) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n102 n69) n99)
+sub old bexp : (and (and n102 n69) n99)
+sub new bexp : (and n102 (and n69 n99))
+before depth : 4
+after depth : 3
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 248
+selected cripath : 
+om_1 n185 n184 n183 n182 n160 tmp14 n159 n150 n149 n148 n143 n142 n140 n139 n96 n95 n94 n93 n91 
+
+now time : 1582710601.57pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n150
+tmpvar#0  -->  CVar_n158
+tmpvar#2  -->  CVar_n66
+---------------------
+
+old bexp : (and (and x y) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n150 n158) n66)
+sub old bexp : (and (and n150 n158) n66)
+sub new bexp : (and n150 (and n158 n66))
+before depth : 11
+after depth : 10
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n138
+tmpvar#0  -->  CVar_n139
+tmpvar#2  -->  CVar_n141
+---------------------
+
+old bexp : (and (and y x) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n138 n139) n141)
+sub old bexp : (and (and n138 n139) n141)
+sub new bexp : (and n139 (and n138 n141))
+before depth : 7
+after depth : 6
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n138
+tmpvar#1  -->  CVar_n103
+tmpvar#2  -->  CVar_n96
+---------------------
+
+old bexp : (and z (and y x))
+new bexp : (and x (and y z))
+tgt bexp     : (and n138 (and n103 n96))
+sub old bexp : (and n138 (and n103 n96))
+sub new bexp : (and n96 (and n103 n138))
+before depth : 6
+after depth : 5
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 251
+selected cripath : 
+om_1 n185 n181 n180 tmp1 n179 n178 n172 n166 n134 n130 n117 n105 n96 n95 n94 n93 n91 
+
+now time : 1582710601.62pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_tmp14
+tmpvar#0  -->  CVar_tmp15
+tmpvar#2  -->  CVar_tmp1
+---------------------
+
+old bexp : (and (xor x y) z)
+new bexp : (xor (and x z) (and y z))
+tgt bexp     : (and (xor tmp14 tmp15) tmp1)
+sub old bexp : (and (xor tmp14 tmp15) tmp1)
+sub new bexp : (xor (and tmp14 tmp1) (and tmp15 tmp1))
+before depth : 12
+after depth : 12
+graph replaced
+
+
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n104
+tmpvar#0  -->  CVar_n96
+tmpvar#2  -->  CVar_n116
+---------------------
+
+old bexp : (and (and y x) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n104 n96) n116)
+sub old bexp : (and (and n104 n96) n116)
+sub new bexp : (and n96 (and n104 n116))
+before depth : 6
+after depth : 5
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 254
+selected cripath : 
+om_1 n185 n181 n180 tmp243 tmp1 n179 n178 n172 n166 n165 n164 n163 n162 n105 n96 n80 n79 n75 n74 
+
+now time : 1582710601.68pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n104
+tmpvar#0  -->  CVar_n96
+tmpvar#2  -->  CVar_n115
+---------------------
+
+old bexp : (and (and y x) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n104 n96) n115)
+sub old bexp : (and (and n104 n96) n115)
+sub new bexp : (and n96 (and n104 n115))
+before depth : 6
+after depth : 5
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 255
+selected cripath : 
+om_1 n185 n181 n180 tmp242 tmp1 n179 n178 n177 n176 n153 n152 tmp30 n97 n96 n95 n87 n83 n81 
+
+now time : 1582710601.73pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n69
+tmpvar#0  -->  CVar_n96
+tmpvar#2  -->  CVar_tmp31
+---------------------
+
+old bexp : (and (and y x) z)
+new bexp : (and x (and y z))
+tgt bexp     : (and (and n69 n96) tmp31)
+sub old bexp : (and (and n69 n96) tmp31)
+sub new bexp : (and n96 (and n69 tmp31))
+before depth : 6
+after depth : 5
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+om_3 n196 n195 n194 n192 n159 n150 n137 n136 n135 n134 n130 n117 tmp272 n96 n95 n87 n86 n85 
+
+now time : 1582710601.78graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+om_5 n221 n217 n216 n208 n207 n204 n203 n202 n201 n200 n169 n105 n96 n95 n94 n93 n92 
+
+now time : 1582710601.83graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+n74 n75 n79 n80 n96 n105 n169 n200 n201 n202 n203 n204 n207 n208 n216 n217 n221 om_5 
+
+now time : 1582710601.88graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+om_5 n221 n217 n216 n208 n207 n204 n150 n149 n148 n143 n142 tmp198 n139 n96 n80 n79 n78 n77 
+
+now time : 1582710601.92graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+n77 n78 n79 n80 n96 n139 tmp198 n142 n143 n148 n149 n150 n204 n207 n208 n216 n217 n221 om_5 
+
+now time : 1582710601.98graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+om_5 n221 n217 n216 n208 n207 n204 n150 n149 n148 n143 n142 tmp198 n139 n96 n95 n94 n93 n91 
+
+now time : 1582710602.03graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+n109 tmp113 n114 tmp104 n116 tmp273 n117 n130 n134 n135 n136 n137 n150 n204 n207 n208 n216 n217 n221 om_5 
+
+now time : 1582710602.08graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+om_1 n185 n181 n180 tmp242 tmp1 n179 n178 n172 n171 n168 n167 n156 n139 n96 n80 n79 n78 n77 
+
+now time : 1582710602.12graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 256
+selected cripath : 
+n82 n83 n87 n95 n96 n139 tmp198 n142 n143 n148 n149 n150 n159 n192 n194 n195 n205 n206 om_4 
+
+now time : 1582710602.17n100 n106 n107 n108 n109 n110 n111 n118 n119 n120 n121 n123 n124 n131 n141 n264 n287 n296 n65 n66 n67 n68 n70 n71 n73 n74 n76 n77 n81 n82 n84 n85 n88 n89 n91 n92 n99 n101 n102 n112 n113 n122 n125 n132 n145 n212 n213 n255 n272 n293 n297 n69 n72 n75 n78 n83 n86 n90 n93 tmp105 tmp109 tmp113 tmp155 tmp31 tmp37 tmp108 tmp112 tmp154 n103 n104 n114 n115 n126 n127 n133 n277 n278 n283 n79 n80 n87 n94 tmp401 tmp104 n138 n95 n96 tmp209 tmp341 n105 n116 tmp208 tmp272 tmp273 tmp340 tmp36 tmp400 n139 n140 n162 n97 tmp130 tmp131 tmp199 n117 n151 n152 n169 n170 n198 tmp198 tmp30 n128 n142 n144 n156 n163 n98 n130 n153 n173 n199 n200 n211 n233 n256 n260 n129 n143 n146 n157 n164 n167 n246 tmp7 n134 n154 n174 n176 n201 n225 n234 n236 n257 n261 n267 n147 n148 n165 n168 n171 n135 n136 n155 n166 n175 n177 n202 n203 n230 n235 n237 n247 n258 n262 n265 n268 n274 n281 n149 n158 n172 om_9 n137 n178 n214 n238 n244 n252 n253 n259 n266 n269 n275 n282 n286 om_11 n150 n159 n190 n193 n204 n224 n226 tmp179 tmp75 n179 n188 n215 n239 n240 n245 n248 n270 n276 n279 n284 n288 n292 n298 om_10 tmp178 tmp6 tmp74 n191 n192 n194 n207 n208 n227 n229 n231 tmp14 tmp15 n216 n218 n219 n243 n250 n271 n285 n289 n294 n299 om_0 om_13 om_7 om_8 tmp1 n160 n195 n196 n205 n209 n228 n232 n241 om_3 tmp242 tmp243 n187 n217 n220 n290 n295 om_12 om_15 om_2 tmp0 n180 n182 n183 n206 om_4 om_6 n221 om_14 n181 n184 om_5 n185 om_1 
+graph opt finished
+new graph depth
+---graph depth print---
+var : om_0 depth : 10
+var : om_1 depth : 12
+var : om_2 depth : 11
+var : om_3 depth : 12
+var : om_4 depth : 12
+var : om_5 depth : 12
+var : om_6 depth : 12
+var : om_7 depth : 11
+var : om_8 depth : 11
+var : om_9 depth : 8
+var : om_10 depth : 9
+var : om_11 depth : 8
+var : om_12 depth : 10
+var : om_13 depth : 10
+var : om_14 depth : 11
+var : om_15 depth : 11
+var : om_16 depth : 0
+var : om_17 depth : 0
+var : om_18 depth : 0
+var : om_19 depth : 0
+var : om_20 depth : 0
+var : om_21 depth : 0
+var : om_22 depth : 0
+var : om_23 depth : 0
+var : om_24 depth : 0
+var : om_25 depth : 0
+var : om_26 depth : 0
+var : om_27 depth : 0
+var : om_28 depth : 0
+var : om_29 depth : 0
+var : om_30 depth : 0
+var : om_31 depth : 0
+---------------------
+tmp75 = (and n158 n97)
+tmp74 = n150
+tmp7 = (and n65 n98)
+tmp6 = n159
+tmp401 = (and n69 tmp31)
+tmp400 = n96
+tmp37 = (and n66 n69)
+tmp36 = n96
+tmp341 = (and n104 n115)
+tmp340 = n96
+tmp31 = (and n65 n66)
+tmp30 = n97
+tmp273 = (and n104 n116)
+tmp272 = n96
+tmp243 = (and tmp1 tmp15)
+tmp242 = (and tmp1 tmp14)
+tmp209 = (and n103 n138)
+tmp208 = n96
+tmp199 = (and n138 n141)
+tmp198 = n139
+tmp179 = (and n158 n66)
+tmp178 = n150
+tmp155 = (and n69 n99)
+tmp154 = n102
+tmp15 = (and tmp74 tmp75)
+tmp14 = (and tmp178 tmp179)
+tmp131 = (and n116 n127)
+tmp130 = n105
+tmp113 = (and n108 n109)
+tmp112 = n112
+tmp109 = (and n107 n108)
+tmp108 = n113
+tmp105 = (and n106 n107)
+tmp104 = n114
+tmp1 = (and n179 n65)
+tmp0 = n160
+om_9 = (and n148 n166)
+om_8 = (and n150 n250)
+om_7 = (and n243 n248)
+om_6 = (and n228 n241)
+om_5 = (not n221)
+om_4 = (and n206 n209)
+om_31 = false
+om_30 = false
+om_3 = (and n191 n196)
+om_29 = false
+om_28 = false
+om_27 = false
+om_26 = false
+om_25 = false
+om_24 = false
+om_23 = false
+om_22 = false
+om_21 = false
+om_20 = false
+om_2 = (and n187 n188)
+om_19 = false
+om_18 = false
+om_17 = false
+om_16 = false
+om_15 = (and n295 n299)
+om_14 = (not n290)
+om_13 = (and n276 n279)
+om_12 = (and n271 n272)
+om_11 = (and n259 n262)
+om_10 = (and n252 n253)
+om_1 = (not n185)
+om_0 = (and tmp6 tmp7)
+n99 = (not i19)
+n98 = (xor n66 n97)
+n97 = (and n69 n96)
+n96 = (and n80 n95)
+n95 = (and n87 n94)
+n94 = (and n90 n93)
+n93 = (and n91 n92)
+n92 = (not i9)
+n91 = (not i8)
+n90 = (and n88 n89)
+n89 = (not i7)
+n88 = (not i6)
+n87 = (and n83 n86)
+n86 = (and n84 n85)
+n85 = (not i14)
+n84 = (not i13)
+n83 = (and n81 n82)
+n82 = (not i11)
+n81 = (not i10)
+n80 = (and n72 n79)
+n79 = (and n75 n78)
+n78 = (and n76 n77)
+n77 = (not i5)
+n76 = (not i4)
+n75 = (and n73 n74)
+n74 = (not i3)
+n73 = (not i2)
+n72 = (and n70 n71)
+n71 = (not i1)
+n70 = (not i0)
+n69 = (and n67 n68)
+n68 = (not i15)
+n67 = (not i12)
+n66 = (not i16)
+n65 = (not i17)
+n299 = (not n298)
+n298 = (and n286 n297)
+n297 = (not n296)
+n296 = (and i31 n123)
+n295 = (not n294)
+n294 = (and n292 n293)
+n293 = (not n287)
+n292 = (not n286)
+n290 = (and n285 n289)
+n289 = (not n288)
+n288 = (and n286 n287)
+n287 = (and i30 n124)
+n286 = (and n121 n281)
+n285 = (not n284)
+n284 = (and n282 n283)
+n283 = (and i29 n125)
+n282 = (not n281)
+n281 = (and n120 n267)
+n279 = (and n269 n278)
+n278 = (and n125 n277)
+n277 = (not n122)
+n276 = (not n275)
+n275 = (and i29 n274)
+n274 = (not n267)
+n272 = (and n121 n125)
+n271 = (not n270)
+n270 = (and n266 n269)
+n269 = (not n268)
+n268 = (and i28 n267)
+n267 = (and n118 n256)
+n266 = (not n265)
+n265 = (and n257 n264)
+n264 = (and i27 n120)
+n262 = (and n126 n261)
+n261 = (not n260)
+n260 = (and n117 n118)
+n259 = (not n258)
+n258 = (and n255 n257)
+n257 = (not n256)
+n256 = (and n117 n131)
+n255 = (not n119)
+n253 = (and n137 n148)
+n252 = (not n166)
+n250 = (not n248)
+n248 = (and n245 n247)
+n247 = (and n166 n246)
+n246 = (and n107 n144)
+n245 = (not n244)
+n244 = (and i23 n235)
+n243 = (not n240)
+n241 = (and n232 n240)
+n240 = (and n235 n239)
+n239 = (and n109 n238)
+n238 = (not n237)
+n237 = (and i22 n236)
+n236 = (not n233)
+n235 = (not n234)
+n234 = (and n111 n233)
+n233 = (and n110 n198)
+n232 = (not n231)
+n231 = (and n229 n230)
+n230 = (not n225)
+n229 = (not n150)
+n228 = (and n207 n227)
+n227 = (not n226)
+n226 = (and n224 n225)
+n225 = (and n107 n211)
+n224 = (not om_9)
+n221 = (and n217 n220)
+n220 = (not n219)
+n219 = (and n204 n218)
+n218 = (not n215)
+n217 = (not n216)
+n216 = (and n208 n215)
+n215 = (and n211 n214)
+n214 = (and n166 n213)
+n213 = (and n107 n212)
+n212 = (and n109 n111)
+n211 = (xor n110 n198)
+n209 = (not n208)
+n208 = (and n193 n207)
+n207 = (not n204)
+n206 = (not n205)
+n205 = (and n195 n204)
+n204 = (and n150 n203)
+n203 = (and n199 n202)
+n202 = (and n113 n201)
+n201 = (not n200)
+n200 = (and i20 n169)
+n199 = (not n198)
+n198 = (and n105 n108)
+n196 = (and n179 n195)
+n195 = (not n194)
+n194 = (and n192 n193)
+n193 = (not n172)
+n192 = (not n159)
+n191 = (not n190)
+n190 = (and n159 n172)
+n188 = (xor n159 n178)
+n187 = (not om_0)
+n185 = (and n181 n184)
+n184 = (not n183)
+n183 = (and n178 n182)
+n182 = (not n160)
+n181 = (not n180)
+n180 = (xor tmp242 tmp243)
+n179 = (not n178)
+n178 = (and n172 n177)
+n177 = (and n175 n176)
+n176 = (and n100 n153)
+n175 = (not n174)
+n174 = (and i17 n173)
+n173 = (not n151)
+n172 = (and n166 n171)
+n171 = (and n168 n170)
+n170 = (and n115 n169)
+n169 = (not n105)
+n168 = (not n167)
+n167 = (and i19 n156)
+n166 = (and n134 n165)
+n165 = (not n164)
+n164 = (and i25 n163)
+n163 = (not n162)
+n162 = (and tmp340 tmp341)
+n160 = (xor tmp14 tmp15)
+n159 = (and n150 n158)
+n158 = (and n155 n157)
+n157 = (and n138 n156)
+n156 = (not n139)
+n155 = (not n154)
+n154 = (and i18 n153)
+n153 = (not n152)
+n152 = (and tmp400 tmp401)
+n151 = (and tmp36 tmp37)
+n150 = (and n137 n149)
+n149 = (not n148)
+n148 = (and n143 n147)
+n147 = (not n146)
+n146 = (and n144 n145)
+n145 = (and n106 n107)
+n144 = (not n140)
+n143 = (not n142)
+n142 = (and tmp198 tmp199)
+n141 = (and i24 n106)
+n140 = (and tmp208 tmp209)
+n139 = (and n103 n96)
+n138 = (and n114 n99)
+n137 = (not n136)
+n136 = (and n129 n135)
+n135 = (not n134)
+n134 = (and n130 n133)
+n133 = (and n126 n132)
+n132 = (and n118 n131)
+n131 = (not i26)
+n130 = (not n117)
+n129 = (not n128)
+n128 = (and tmp130 tmp131)
+n127 = (and n119 n126)
+n126 = (and n122 n125)
+n125 = (and n123 n124)
+n124 = (not i31)
+n123 = (not i30)
+n122 = (and n120 n121)
+n121 = (not i29)
+n120 = (not i28)
+n119 = (and i26 n118)
+n118 = (not i27)
+n117 = (and tmp272 tmp273)
+n116 = (and tmp104 tmp105)
+n115 = (and tmp108 tmp109)
+n114 = (and tmp112 tmp113)
+n113 = (and n109 n112)
+n112 = (and n110 n111)
+n111 = (not i22)
+n110 = (not i21)
+n109 = (not i23)
+n108 = (not i20)
+n107 = (not i24)
+n106 = (not i25)
+n105 = (and n104 n96)
+n104 = (and tmp154 tmp155)
+n103 = (and n102 n69)
+n102 = (and n100 n101)
+n101 = (and n65 n66)
+n100 = (not i18)
+old mult depth : 14
+new mult depth : 12
