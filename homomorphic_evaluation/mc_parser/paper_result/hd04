@@ -16,3 +16,12 @@ input : i_5 : 0
 input : i_4 : 0
 input : i_3 : 0
 input : i_2 : 0
+circuit evaluation finished
+output : m_7 : 0
+output : m_6 : 0
+output : m_5 : 0
+output : m_4 : 1
+output : m_3 : 0
+output : m_2 : 0
+output : m_1 : 0
+output : m_0 : 0
