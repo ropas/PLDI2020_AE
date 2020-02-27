@@ -8,8 +8,13 @@ echo "              before_opt     after_opt"
 ./he_base cardio.eqn_opted_result 8 > paper_result/cardio_opted_result
 ./he_base dsort.eqn 9 > paper_result/dsort
 ./he_base dsort.eqn_opted_result 8 > paper_result/dsort_opted_result
+echo "hd01                   -             -"
+echo "hd02                   -             -"
+echo "hd03                   -             -"
 ./he_base hd04.eqn 10 > paper_result/hd04
 ./he_base hd04.eqn_opted_result 8 > paper_result/hd04_opted_result
+echo "hd05                   -             -"
+echo "hd06                   -             -"
 ./he_base hd07.eqn 5 > paper_result/hd07
 ./he_base hd07.eqn_opted_result 3 > paper_result/hd07_opted_result
 ./he_base hd08.eqn 6 > paper_result/hd08
