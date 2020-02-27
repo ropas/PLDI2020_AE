@@ -54,6 +54,7 @@ let consumed_time = string_of_int (int_of_float(Unix.time() -. start_time))
 
 
 let filename = let regexp = Str.regexp_string "../baseline/paper_bench/" in Str.global_replace regexp "" filename
+let filename = let regexp = Str.regexp_string "paper_bench/" in Str.global_replace regexp "" filename
 let filename_length = String.length filename
 
 let filename_length = String.length filename

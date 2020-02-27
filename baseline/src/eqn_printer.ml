@@ -130,8 +130,9 @@ let graph_to_eqnstring : G.t -> string = fun graph ->
       let new_delayed = BatSet.union new_delayed delayed_set in
       eqnstring_order new_acc (new_todo, new_delayed)
   in
-  let eqn_order = eqnstring_order [] (ilist_vertex, BatSet.empty) in
-  let _ = Pp.print_varlist eqn_order in
+  let start_vlist = (Node.CONST true, 0)::(Node.CONST false, 0)::ilist_vertex in
+  let eqn_order = eqnstring_order [] (start_vlist, BatSet.empty) in
+  (*let _ = Pp.print_varlist eqn_order in*)
   let eqn_list = List.map (fun lv -> (lv, get_bexp_of_var graph lv)) eqn_order in
   let single_eqn_list = List.flatten (List.map eqn_to_single_gate eqn_list) in
   let elist_string = elist_to_string single_eqn_list in 
