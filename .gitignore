@@ -1,9 +1,5 @@
 homomorphic_evaluation/mc_parser/CMakeFiles
 homomorphic_evaluation/mc_parser/CMakeCache.txt
 circuit_rewriting/_build
-circuit_rewriting/paper_result/*
-circuit_rewriting/paper_bench/*_opted_result
 baseline/_build
-baseline/paper_result/*
-baseline/paper_bench/*_opted_result
 
