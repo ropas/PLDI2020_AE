@@ -367,8 +367,9 @@ int main( const int argc, const char **argv )
 
 	string circuit_filename = argv[1];
 	string directory_tag = "paper_bench/";
+	string empty_string = "";
         if(circuit_filename.find(directory_tag) != std::string::npos){
-	    circuit_filename = circuit_filename.replace(0, 11, "");
+	    circuit_filename = circuit_filename.replace(circuit_filename.begin(), circuit_filename.begin() + 12, empty_string);
 	}
 	
 	string opted_filename_tag = "opted_result";
@@ -379,7 +380,7 @@ int main( const int argc, const char **argv )
 	    cerr << std::string(14 - time_length, ' ') << time_string << endl;
 	}
 	else{
-	    cerr <<  argv[1] << std::string(10 - name_length, ' ')  << std::string(14 - time_length, ' ') << time_string ;
+	    cerr <<  circuit_filename << std::string(10 - name_length, ' ')  << std::string(14 - time_length, ' ') << time_string ;
 	}
         /*}*/
         //driver.print( std::cout ) << "\n";
