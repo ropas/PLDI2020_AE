@@ -46,9 +46,7 @@ int main( const int argc, const char **argv )
          {
 
          * assume file, prod code, use stat to check **/
-	string inputName = "paper_bench/";
-        inputName += argv[1];
-        driver.parse( inputName.c_str() );
+        driver.parse( argv[1] );
         vector<string> inputlist = driver.inputlist;
         vector<string> outputlist = driver.outputlist;
         vector<tuple<string, MC::Bexp*>> eqnlist = driver.eqnlist;
@@ -368,6 +366,11 @@ int main( const int argc, const char **argv )
 	}
 
 	string circuit_filename = argv[1];
+	string directory_tag = "paper_bench/";
+        if(circuit_filename.find(directory_tag) != std::string::npos){
+	    circuit_filename = circuit_filename.replace(0, 11, "");
+	}
+	
 	string opted_filename_tag = "opted_result";
 	int name_length = circuit_filename.length();
 	int time_length = time_string.length();
