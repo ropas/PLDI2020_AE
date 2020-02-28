@@ -8,13 +8,13 @@ echo "              before_opt     after_opt"
 ./he_base paper_bench/cardio.eqn_opted_result 8 > paper_result/cardio_opted_result
 ./he_base paper_bench/dsort.eqn 9 > paper_result/dsort
 ./he_base paper_bench/dsort.eqn_opted_result 8 > paper_result/dsort_opted_result
-echo "hd01                   -             -"
-echo "hd02                   -             -"
-echo "hd03                   -             -"
+echo "hd01.eqn               -             -"
+echo "hd02.eqn               -             -"
+echo "hd03.eqn               -             -"
 ./he_base paper_bench/hd04.eqn 10 > paper_result/hd04
 ./he_base paper_bench/hd04.eqn_opted_result 8 > paper_result/hd04_opted_result
-echo "hd05                   -             -"
-echo "hd06                   -             -"
+echo "hd05.eqn               -             -"
+echo "hd06.eqn               -             -"
 ./he_base paper_bench/hd07.eqn 5 > paper_result/hd07
 ./he_base paper_bench/hd07.eqn_opted_result 3 > paper_result/hd07_opted_result
 ./he_base paper_bench/hd08.eqn 6 > paper_result/hd08
