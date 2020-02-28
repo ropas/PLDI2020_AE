@@ -26,14 +26,14 @@ eval `opam config env`
 opam install ocamlfind ocamlgraph batteries
 ```
 
-### Build (tested on Linux)
+### Build
 ```sh
 $ ./build.sh
 ```
 
 ## Data description
 *	circuit\_rewriting/paper\_bench : Benchmarks from Cingulata, Hackers Delight, Sorting Algorithm (Table 1)
-*	circuit\_rewriting/paper\_cases/all\_cases : Machind-found aggresive optimization patterns by offline-learning (Section 4.2)
+*	circuit\_rewriting/paper\_cases/all\_cases : Machine-found aggresive optimization patterns by offline-learning (Section 4.2)
 *	circuit\_rewriting/paper\_cases/leave... : Optimization patterns for leave-one-out cross validation (Section 5.2)
 *	homomorphic\_evaluation/mc\_parser/paper\_bench : Original/Opted benchmarks by Lobster and Carpov.et.al
 
