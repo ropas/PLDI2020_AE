@@ -50,7 +50,29 @@ let old_depth = graph_max_depth tgt_graph olist
 let _ = print_endline("old mult depth : " ^ (string_of_int old_depth))
 let new_depth = graph_max_depth new_graph olist
 let _ = print_endline("new mult depth : " ^ (string_of_int new_depth))
-let consumed_time = string_of_int (int_of_float(Unix.time() -. start_time))
+let consumed_time = (int_of_float(Unix.time() -. start_time))
+let consumed_hour = consumed_time / 3600
+let consumed_min = (consumed_time mod 3600) / 60
+let consumed_sec = consumed_time mod 60
+let time_string = ""
+let time_string = if(0 < consumed_hour) then time_string ^ (string_of_int consumed_hour) ^ "h " else time_string
+let time_string =
+  if(0 < consumed_min && consumed_min < 10) then
+    time_string ^ " " ^ (string_of_int consumed_min) ^ "m "
+  else if (10 <= consumed_min) then
+    time_string ^ (string_of_int consumed_min) ^ "m "
+  else if(0 < consumed_hour) then
+    time_string ^ " 0m "
+  else
+    time_string
+
+let time_string =
+  if(consumed_sec < 10) then
+    time_string ^ " " ^ (string_of_int consumed_sec) ^ "s"
+  else
+    time_string ^ (string_of_int consumed_sec) ^ "s"
+
+
 
 
 let filename = let regexp = Str.regexp_string "../baseline/paper_bench/" in Str.global_replace regexp "" filename
@@ -58,13 +80,13 @@ let filename = let regexp = Str.regexp_string "paper_bench/" in Str.global_repla
 let filename_length = String.length filename
 
 let filename_length = String.length filename
-let time_length = String.length consumed_time
+let time_length = String.length time_string
 let old_depth_string = if (old_depth < 10) then " " ^ (string_of_int old_depth) else (string_of_int old_depth)
 let new_depth_string = if (new_depth < 10) then " " ^ (string_of_int new_depth) else (string_of_int new_depth)
 
 let rec empty_n_string n = if(n = 0) then "" else " " ^ empty_n_string (n-1)
 
-let _ = prerr_string(filename ^ (empty_n_string (19 - filename_length)) ^ (old_depth_string) ^ "             " ^ (new_depth_string) ^ empty_n_string (17 - time_length) ^  consumed_time)
+let _ = prerr_string(filename ^ (empty_n_string (19 - filename_length)) ^ (old_depth_string) ^ "             " ^ (new_depth_string) ^ empty_n_string (17 - time_length) ^ time_string)
 
 
 

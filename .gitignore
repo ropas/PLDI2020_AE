@@ -1,5 +1,8 @@
-homomorphic_evaluation/mc_parser/CMakeFiles
 homomorphic_evaluation/mc_parser/CMakeCache.txt
+homomorphic_evaluation/mc_parser/CMakeFiles
+homomorphic_evaluation/mc_parser/he_base
 circuit_rewriting/_build
+circuit_rewriting/main.native
 baseline/_build
+baseline/main.native
 

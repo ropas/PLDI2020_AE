@@ -162,7 +162,7 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 73
 selected cripath : 
-m_31 n165 n164 n161 n141 n133 n132 n130 
+n138 n139 n140 n141 n161 n164 n165 m_31 
 
 unsat
 pattern matched!
@@ -191,31 +191,55 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_30 n126 n109 n108 n107 n103 n101 
+m_31 tmp819 n161 n141 n133 n132 n131 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_29 n126 n109 n108 n100 n99 n97 
+n101 n103 n107 n108 n109 tmp820 tmp819 m_31 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-n117 n119 n123 n124 n125 tmp14 tmp13 m_31 
+m_29 n159 n142 n141 n140 n136 n134 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_30 n126 n109 n108 n100 n99 n97 
+n147 n148 n149 n157 n158 n161 n162 m_30 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_30 n126 n109 n108 n107 n106 n104 
+n104 n106 n107 n108 n109 tmp820 tmp819 m_31 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 74
+selected cripath : 
+n153 n155 n156 n157 n158 n161 n162 m_30 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 74
+selected cripath : 
+m_31 tmp819 n161 n141 n133 n129 n127 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 74
+selected cripath : 
+m_30 n162 n161 n141 n133 n129 n128 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 74
+selected cripath : 
+m_30 n126 n125 n124 n116 n112 n111 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
@@ -227,43 +251,19 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_31 tmp13 n161 n158 n157 n149 n145 n143 
+n127 n129 n133 n141 n142 n159 m_29 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-n118 n119 n123 n124 n125 n126 m_29 
+n144 n145 n149 n157 n158 n159 m_29 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_31 tmp13 n161 n141 n133 n132 n130 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 74
-selected cripath : 
-m_29 n126 n125 n124 n116 n112 n110 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 74
-selected cripath : 
-m_31 tmp13 tmp14 n125 n124 n123 n122 n120 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 74
-selected cripath : 
-m_30 n126 n109 n108 n100 n99 n98 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 74
-selected cripath : 
-m_30 n162 n161 n141 n133 n129 n128 
+n134 n136 n140 n141 n161 tmp819 m_31 
 
 dangling node deleted : nodeVal : AND index : 179
 dangling node deleted : nodeVal : n165 index : 1
@@ -271,7 +271,7 @@ dangling node deleted : nodeVal : XOR index : 177
 dangling node deleted : nodeVal : n164 index : 1
 dangling node deleted : nodeVal : AND index : 175
 cleanup fin
-redundant node deleted : nodeVal : n126 index : 1 is same with nodeVal : tmp14 index : 1
+redundant node deleted : nodeVal : n126 index : 1 is same with nodeVal : tmp820 index : 1
 sharing detect fin
 dangling node deleted : nodeVal : AND index : 83
 cleanup fin
@@ -373,13 +373,13 @@ n142 = (!n141);
 n158 = (!n157);
 n161 = (n141 * n158);
 n162 = (!n157 * n161) + (n157 * !n161);
-tmp15 = (n108 * n125);
+tmp821 = (n108 * n125);
 n159 = (n142 * n158);
-tmp14 = (n109 * n125);
-m_29 = (n159 * tmp14);
-m_30 = (n162 * tmp14);
-tmp13 = (n161 * tmp14);
-m_31 = (!tmp13 * tmp15) + (tmp13 * !tmp15);
+tmp820 = (n109 * n125);
+m_29 = (n159 * tmp820);
+m_30 = (n162 * tmp820);
+tmp819 = (n161 * tmp820);
+m_31 = (!tmp819 * tmp821) + (tmp819 * !tmp821);
 
 
 new graph depth

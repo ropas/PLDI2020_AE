@@ -45,9 +45,9 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 73
 selected cripath : 
-m_31 n165 n164 n161 n141 n140 n139 n138 
+m_31 n165 n164 n161 n158 n157 n149 n145 n144 
 
-now time : 1582710643.64pattern matched!
+now time : 1582827580.48pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
 tmpvar#0  -->  CVar_n125
@@ -69,9 +69,9 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_31 tmp1 n164 n161 n158 n157 n149 n148 n146 
+m_31 tmp1 n164 n161 n158 n157 n149 n148 n147 
 
-now time : 1582710643.64pattern matched!
+now time : 1582827580.48pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
 tmpvar#0  -->  CVar_n125
@@ -93,21 +93,9 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 74
 selected cripath : 
-m_29 n126 n125 n124 n123 n122 n121 
+m_30 n126 n109 n108 n107 n103 n101 
 
-now time : 1582710643.64graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 74
-selected cripath : 
-m_31 tmp1 tmp28 n161 n158 n157 n156 n152 n151 
-
-now time : 1582710643.64graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 74
-selected cripath : 
-n118 n119 n123 n124 n125 n126 m_30 
-
-now time : 1582710643.65pattern matched!
+now time : 1582827580.49pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
 tmpvar#0  -->  CVar_n126
@@ -129,58 +117,57 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
-m_30 tmp127 n126 n125 n124 n116 n112 n110 
+m_31 tmp1 tmp28 n161 n141 n140 n136 n135 
 
-now time : 1582710643.65graph opt iter finished
+now time : 1582827580.49graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
-m_30 tmp126 n126 n109 n108 n107 n106 n104 
+m_31 tmp1 tmp28 n161 n158 n157 n149 n148 n147 
 
-now time : 1582710643.65graph opt iter finished
+now time : 1582827580.5graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 75
+selected cripath : 
+n146 n148 n149 n157 n158 n161 tmp28 tmp1 m_31 
+
+now time : 1582827580.5graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 75
+selected cripath : 
+m_30 tmp55 n161 n141 n133 n132 n130 
+
+now time : 1582827580.51graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
 n130 n132 n133 n141 n161 tmp28 tmp1 m_31 
 
-now time : 1582710643.65graph opt iter finished
+now time : 1582827580.51graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
-m_31 tmp1 tmp28 n161 n141 n140 n136 n135 
+m_29 n126 n125 n124 n123 n122 n121 
 
-now time : 1582710643.66graph opt iter finished
+now time : 1582827580.52graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
-n151 n152 n156 n157 n158 n161 tmp127 m_30 
+n151 n152 n156 n157 n158 n161 tmp28 tmp1 m_31 
 
-now time : 1582710643.66graph opt iter finished
+now time : 1582827580.52graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
-m_29 n159 n142 n141 n140 n136 n135 
+m_30 tmp54 n126 n125 n124 n116 n115 n114 
 
-now time : 1582710643.66graph opt iter finished
+now time : 1582827580.53graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 75
 selected cripath : 
-n128 n129 n133 n141 n142 n159 m_29 
+n146 n148 n149 n157 n158 n159 m_29 
 
-now time : 1582710643.66graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 75
-selected cripath : 
-m_29 n126 n125 n124 n116 n112 n111 
-
-now time : 1582710643.66graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 75
-selected cripath : 
-n101 n103 n107 n108 n109 tmp29 tmp1 m_31 
-
-now time : 1582710643.67n101 n102 n104 n105 n110 n111 n113 n114 n117 n118 n120 n121 n127 n128 n130 n131 n134 n135 n137 n138 n143 n144 n146 n147 n150 n151 n153 n154 n94 n95 n97 n98 n103 n106 n112 n115 n119 n122 n129 n132 n136 n139 n145 n148 n152 n155 n96 n99 n100 n107 n116 n123 n133 n140 n149 n156 n108 n124 n141 n157 n109 n125 n142 n158 n161 n162 tmp0 tmp28 n126 n159 n164 tmp127 tmp29 tmp1 m_29 m_31 n165 tmp126 m_30 
-graph opt finished
+now time : 1582827580.53graph opt finished
 new graph depth
 ---graph depth print---
 var : m_0 depth : 0
@@ -216,10 +203,10 @@ var : m_29 depth : 5
 var : m_30 depth : 5
 var : m_31 depth : 5
 ---------------------
+tmp55 = (and n126 n161)
+tmp54 = (and n126 n157)
 tmp29 = (and n109 n125)
 tmp28 = n161
-tmp127 = (and n126 n161)
-tmp126 = (and n126 n157)
 tmp1 = (and tmp28 tmp29)
 tmp0 = (and n108 n125)
 n99 = (and n97 n98)
@@ -299,7 +286,7 @@ m_6 = false
 m_5 = false
 m_4 = false
 m_31 = (xor tmp0 tmp1)
-m_30 = (xor tmp126 tmp127)
+m_30 = (xor tmp54 tmp55)
 m_3 = false
 m_29 = (and n126 n159)
 m_28 = false

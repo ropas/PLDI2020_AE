@@ -336,17 +336,47 @@ int main( const int argc, const char **argv )
         }
 
 	int eval_time = time(0) - start_time;
+	int consumed_hour = eval_time / 3600;
+	int consumed_min = (eval_time % 3600) / 60;
+	int consumed_sec = eval_time % 60;
+	string time_string = "";
+	if(0 < consumed_hour){
+	  time_string += to_string(consumed_hour);
+	  time_string += "h ";
+	}
+
+	if(0 < consumed_min && consumed_min < 10){
+	  time_string += " ";
+	  time_string += to_string(consumed_min);
+	  time_string += "m ";
+	}
+	else if(10 <= consumed_min){
+	  time_string += to_string(consumed_min);
+	  time_string += "m ";
+	}
+  	else if(0 < consumed_hour)
+    	  time_string += " 0m ";
+ 	
+	if(consumed_sec < 10){
+	  time_string += " ";
+	  time_string += to_string(consumed_sec);
+	  time_string += "s";
+    	}
+	else{
+	  time_string += to_string(consumed_sec);
+	  time_string += "s";
+	}
 
 	string circuit_filename = argv[1];
 	string opted_filename_tag = "opted_result";
 	int name_length = circuit_filename.length();
-	int time_length = to_string(eval_time).length();
+	int time_length = time_string.length();
 
         if(circuit_filename.find(opted_filename_tag) != std::string::npos){
-	    cerr << std::string(14 - time_length, ' ') << to_string(eval_time) << endl;
+	    cerr << std::string(14 - time_length, ' ') << time_string << endl;
 	}
 	else{
-	    cerr <<  argv[1] << std::string(10 - name_length, ' ')  << std::string(14 - time_length, ' ') << to_string(eval_time) ;
+	    cerr <<  argv[1] << std::string(10 - name_length, ' ')  << std::string(14 - time_length, ' ') << time_string ;
 	}
         /*}*/
         //driver.print( std::cout ) << "\n";

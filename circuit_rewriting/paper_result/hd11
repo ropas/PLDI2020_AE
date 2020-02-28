@@ -112,7 +112,7 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 652
 selected cripath : 
-m_29 n737 n736 n735 n730 n729 n728 n717 n716 n715 n714 n711 n705 n696 n695 n692 n518 n517 n516 n501 n500 n496 n494 n227 n218 n217 
+m_29 n737 n736 n735 n730 n729 n728 n717 n716 n715 n714 n711 n705 n696 n695 n692 n518 n517 n493 n492 n480 n479 n476 n475 n148 n146 
 
 unsat
 pattern matched!
@@ -216,7 +216,13 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 653
 selected cripath : 
-m_29 n737 tmp14 tmp15 n734 n718 n717 n716 n715 n714 n711 n705 n704 n703 n697 n692 n518 n517 n493 n492 n480 n479 n476 n475 n148 n146 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n516 n515 n514 n513 n511 n183 n182 n181 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 653
+selected cripath : 
+m_29 n737 tmp14 tmp15 n734 n718 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n493 n472 n460 n454 n451 n450 n120 n105 
 
 unsat
 pattern matched!
@@ -241,7 +247,7 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n565 n564 n254 n252 
+n146 n148 n475 n476 n479 n480 n492 n493 n517 n518 n692 n697 n703 n704 n705 n708 n709 n717 n728 n729 n730 n731 m_28 n733 m_29 
 
 unsat
 pattern matched!
@@ -270,67 +276,67 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_28 n731 n730 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n697 n692 n518 n517 n493 n492 n480 n479 n478 n477 n251 n224 
+n217 n218 n578 n580 n581 n582 n583 n584 n585 n700 n701 n702 n703 n704 n705 n711 n714 n715 n716 n717 n728 n729 tmp1879 tmp1878 tmp1877 m_29 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n516 n515 n507 n506 n505 n370 n125 n93 
+m_29 tmp1877 tmp1878 tmp1879 tmp1880 tmp15 tmp1013 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n565 n563 n251 n250 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n562 n561 n560 n559 n208 n145 
+m_29 tmp1877 tmp1878 tmp1879 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n516 n515 n514 n513 n511 n183 n182 n181 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_29 tmp889 tmp890 tmp891 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n565 n564 n254 n252 
+m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n493 n472 n471 n465 n462 n461 n257 n250 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_29 tmp889 tmp890 tmp891 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n516 n501 n500 n496 n495 n263 n226 n224 
+n225 n226 n466 n467 n470 n471 n472 n493 n517 n518 n692 n697 n703 n704 n705 n711 n714 n715 n716 n717 n728 n729 n730 n731 m_28 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_29 tmp889 tmp890 tmp891 n729 n728 n717 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n552 n551 n543 n542 n540 n150 n140 
+m_29 tmp1877 tmp1878 tmp1879 tmp1880 n718 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n565 n563 n251 n250 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n493 n472 n471 n465 n464 n463 n138 n137 
+n132 n133 n559 n560 n561 n562 n566 n567 n583 n584 n585 n700 n701 n702 n703 n704 n705 n711 n714 n715 n716 n717 n728 n729 n730 n731 m_28 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-n181 n182 n548 n549 n550 n551 n552 n584 n585 n700 n701 n702 n703 n704 n705 n708 n709 n717 n728 n729 n730 n731 m_28 
+n217 n218 n227 n494 n496 n500 n501 n516 n517 n518 n692 n697 n703 n704 n705 n711 n714 n715 n716 n717 n718 tmp1880 tmp1879 tmp1878 tmp1877 m_29 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_29 tmp889 tmp890 tmp891 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n697 n692 n518 n517 n493 n472 n471 n470 n469 n468 n111 n96 
+n250 n251 n563 n565 n566 n567 n583 n584 n585 n700 n701 n702 n703 n704 n705 n711 n714 n715 n716 n717 n728 n729 tmp1879 tmp1878 tmp1877 m_29 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-n96 n125 n547 n549 n550 n551 n552 n584 n585 n700 n701 n702 n703 n704 n705 n708 n709 tmp524 tmp523 tmp15 tmp892 tmp891 tmp890 tmp889 m_29 
+n253 n259 n579 n580 n581 n582 n583 n584 n585 n700 n701 n702 n703 n704 n705 n711 n714 n715 n716 n717 n728 n729 tmp1879 tmp1878 tmp1877 m_29 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-n104 n119 n544 n546 n550 n551 n552 n584 n585 n700 n701 n702 n703 n704 n705 n708 n709 n717 n728 n729 n730 n731 m_28 
+m_28 n731 n730 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n552 n533 n532 n531 n529 n95 n93 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
@@ -342,7 +348,7 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 655
 selected cripath : 
-m_29 tmp889 tmp890 tmp891 tmp892 tmp15 tmp523 tmp524 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n552 n533 n525 n524 n522 n111 n96 
+m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n552 n533 n525 n524 n522 n111 n96 
 
 dangling node deleted : nodeVal : AND index : 1239
 dangling node deleted : nodeVal : AND index : 1319
@@ -1041,25 +1047,25 @@ n715 = (n710 * n714);
 n722 = (!n721);
 n723 = (n719 * n722);
 n742 = (n740 * n741);
-tmp524 = (n690 * n709);
+tmp1014 = (n690 * n709);
 n716 = (!n715);
 n717 = (n709 * n716);
 n718 = (n690 * n717);
 n724 = (!n723);
 n728 = (n717 * n727);
-tmp523 = (n717 * tmp524);
+tmp1013 = (n717 * tmp1014);
+tmp15 = (!n709 * tmp1013) + (n709 * !tmp1013);
 n729 = (!n728);
 n730 = (n724 * n729);
 n739 = (!n717);
-tmp15 = (!n709 * tmp523) + (n709 * !tmp523);
-tmp892 = (!n718 * tmp15) + (n718 * !tmp15);
+tmp1880 = (!n718 * tmp15) + (n718 * !tmp15);
 m_30 = (!n739 * n742) + (n739 * !n742);
 n731 = (!n730);
-tmp891 = (n729 * tmp892);
+tmp1879 = (n729 * tmp1880);
 m_28 = (n718 * n731);
-tmp890 = (!tmp891);
-tmp889 = (n723 + tmp890);
-m_29 = (!n718 * tmp889) + (n718 * !tmp889);
+tmp1878 = (!tmp1879);
+tmp1877 = (n723 + tmp1878);
+m_29 = (!n718 * tmp1877) + (n718 * !tmp1877);
 
 
 new graph depth
