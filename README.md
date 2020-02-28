@@ -1,7 +1,15 @@
 # Lobster
 Lobster : Homomorphic Evaluation Circuit Optimizer by Program Synthesis and Term Rewriting
 
-## Requirements
+## Build on Docker
+```sh
+docker pull donk0501/ubuntu:pldi2020_AE_242
+docker run -u pldi2020 -it donk0501/ubuntu:pldi2020_AE_242 bash 
+cd ~/PLDI2020_AE
+./build.sh
+```
+## Build on Linux
+### Requirements
 *	flex 2.6.4
 *	bison 3.0.4
 *	Opam 2.0.4(with Ocaml 4.10.0)
@@ -18,7 +26,7 @@ eval `opam config env`
 opam install ocamlfind ocamlgraph batteries
 ```
 
-## Build (tested on Linux)
+### Build (tested on Linux)
 ```sh
 $ ./build.sh
 ```
