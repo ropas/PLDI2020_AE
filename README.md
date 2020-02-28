@@ -23,29 +23,37 @@ opam install ocamlfind ocamlgraph batteries
 $ ./build.sh
 ```
 
-## Benchmarks and Datas
+## Data description
 *	circuit\_rewriting/paper\_bench : Benchmarks from Cingulata, Hackers Delight, Sorting Algorithm (Table 1)
-*	circuit\_rewriting/paper\_cases/all\_cases : Machind-found Aggresive Optimization Patterns by Offline-Learning (Section 4.2)
-*	circuit\_rewriting/paper\_cases/leave... : Optimization patterns for leave-one-out Cross Validation (Section 5.2)
+*	circuit\_rewriting/paper\_cases/all\_cases : Machind-found aggresive optimization patterns by offline-learning (Section 4.2)
+*	circuit\_rewriting/paper\_cases/leave... : Optimization patterns for leave-one-out cross validation (Section 5.2)
 *	homomorphic\_evaluation/mc\_parser/paper\_bench : Original/Opted benchmarks by Lobster and Carpov.et.al
 
 ## Reproducing the experimental results in the paper
 ```sh
-# Run the experiments
-$ ./artifact [string | bitvec | circuit] [--timeout <sec> (default: 3600)] [--memory <GB> (default: 16)]
-# Table 4,5,6
-$ ./artifact [string | bitvec | circuit] --timeout 3600
-# Table 4,5,6 without EUSOLVER
-$ ./artifact [string | bitvec | circuit] --timeout 3600 --only_euphony
-# Figure 8
-$ ./artifact [string | bitvec | circuit] --timeout 3600 --only_euphony --strategy [pcfg | uniform | pcfg_uniform]
+# Table 2, depth optimization results
+$ ./gen_table_rewriting.sh
+# Table 2, homomorphic evaluation time results(evaluate circuits optimized by Lobster)
+$ ./gen_table_eval.sh
+# Table 2, homomorphic evaluation time results(evaluate circuits optimized by Carpov.et.al)
+$ ./gen_table_eval_baseline.sh
 ```
 
-## Run Euphony on a single SyGus file
+## Optimize single homomorphic circuit
 ```sh
-$ ./bin/run_[string | bitvec | circuit] [a SyGuS input file]
-# For example
-$ ./bin/run_string benchmarks/string/test/exceljet1.sl
+# Lobster
+$ cd circuit_rewriting
+$ ./main.native [ input circuit file(*.eqn) ] [ optimization patterns file(paper_cases/*) ]
+# Carpov.et.al
+$ cd baseline
+$ ./main.native [ input circuit file(*.eqn) ] baseline_cases
+```
+
+
+## Evaluate single homomorphic circuit
+```sh
+$ cd homomorphic_evaluation/mc_parser
+$ ./he_base [ input circuit file(*.eqn) ] [ multiplicative depth ]
 ```
 
 
