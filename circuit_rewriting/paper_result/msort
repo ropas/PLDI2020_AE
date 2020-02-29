@@ -3982,3 +3982,162 @@ after depth : 17
 graph replaced
 
 
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n1015
+tmpvar#1  -->  CVar_n1040
+tmpvar#3  -->  CVar_n1004
+tmpvar#2  -->  CVar_n1053
+tmpvar#4  -->  CVar_n1065
+---------------------
+
+old bexp : (and i_13 (not (xor n72 (xor (and n60 n88) n103))))
+new bexp : (xor (and (xor (not n103) n72) i_13) (and (and i_13 n60) n88))
+tgt bexp     : (and n1015 (not (xor n1040 (xor (and n1004 n1053) n1065))))
+sub old bexp : (and n1015 (not (xor n1040 (xor (and n1004 n1053) n1065))))
+sub new bexp : (xor (and (xor (not n1065) n1040) n1015) (and (and n1015 n1004) n1053))
+before depth : 27
+after depth : 26
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#3  -->  CVar_n1340
+tmpvar#1  -->  CVar_n1304
+tmpvar#2  -->  CVar_n1352
+tmpvar#0  -->  CVar_n1363
+tmpvar#4  -->  CVar_tmp6325
+---------------------
+
+old bexp : (and (xor n72 (xor (and n60 n88) n103)) i_5)
+new bexp : (xor (and (xor n103 n72) i_5) (and (and i_5 n60) n88))
+tgt bexp     : (and (xor n1340 (xor (and n1304 n1352) n1363)) tmp6325)
+sub old bexp : (and (xor n1340 (xor (and n1304 n1352) n1363)) tmp6325)
+sub new bexp : (xor (and (xor n1363 n1340) tmp6325) (and (and tmp6325 n1304) n1352))
+before depth : 36
+after depth : 35
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 2277
+selected cripath : 
+m_10 n1509 n1478 n1476 n1475 n1458 n1401 n1383 n1382 n1378 n1369 n1368 tmp9985 tmp9986 n1304 n1286 n1280 n1165 n1164 n1162 n1157 n1156 n1145 n1096 n1078 n1072 n1071 n1070 n1069 n1067 n1066 n1054 n1053 n1047 n1046 n1045 n1043 n1042 n1041 n1028 n1027 tmp4881 tmp4882 n733 n732 n714 n705 n704 n702 n661 n660 n648 n647 n641 n640 n639 n637 n636 n618 n616 n562 n524 n523 n505 n504 n499 n497 n226 n225 n214 n213 n207 n206 n205 n203 n202 tmp3701 n191 tmp1746 tmp1747 n120 n108 n102 n101 n100 
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#3  -->  CVar_n1040
+tmpvar#1  -->  CVar_n1004
+tmpvar#2  -->  CVar_n1053
+tmpvar#0  -->  CVar_n1065
+tmpvar#4  -->  CVar_n976
+---------------------
+
+old bexp : (and (not (xor n72 (xor (and n60 n88) n103))) i_13)
+new bexp : (xor (and (xor (not n103) n72) i_13) (and (and i_13 n60) n88))
+tgt bexp     : (and (not (xor n1040 (xor (and n1004 n1053) n1065))) n976)
+sub old bexp : (and (not (xor n1040 (xor (and n1004 n1053) n1065))) n976)
+sub new bexp : (xor (and (xor (not n1065) n1040) n976) (and (and n976 n1004) n1053))
+before depth : 27
+after depth : 26
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n605
+tmpvar#1  -->  CVar_n634
+tmpvar#3  -->  CVar_n598
+tmpvar#2  -->  CVar_n647
+tmpvar#4  -->  CVar_n659
+---------------------
+
+old bexp : (and i_5 (xor n72 (xor (and n60 n88) n103)))
+new bexp : (xor (and (xor n103 n72) i_5) (and (and i_5 n60) n88))
+tgt bexp     : (and n605 (xor n634 (xor (and n598 n647) n659)))
+sub old bexp : (and n605 (xor n634 (xor (and n598 n647) n659)))
+sub new bexp : (xor (and (xor n659 n634) n605) (and (and n605 n598) n647))
+before depth : 18
+after depth : 17
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_i_22
+tmpvar#1  -->  CVar_n201
+tmpvar#3  -->  CVar_n177
+tmpvar#2  -->  CVar_n213
+tmpvar#4  -->  CVar_n224
+---------------------
+
+old bexp : (and i_5 (xor n72 (xor (and n60 n88) n103)))
+new bexp : (xor (and (xor n103 n72) i_5) (and (and i_5 n60) n88))
+tgt bexp     : (and i_22 (xor n201 (xor (and n177 n213) n224)))
+sub old bexp : (and i_22 (xor n201 (xor (and n177 n213) n224)))
+sub new bexp : (xor (and (xor n224 n201) i_22) (and (and i_22 n177) n213))
+before depth : 9
+after depth : 8
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 2290
+selected cripath : 
+m_5 n1494 n1478 n1476 n1437 n1401 n1400 n1391 n1386 n1384 tmp53551 tmp53552 n1340 n1304 n1286 n1280 n1165 n1164 n1162 n1157 n1132 n1096 n1078 n1077 n1076 n1075 n1069 n1067 n1066 n1054 n1053 n1047 n1046 n1045 n1043 n1042 n1024 n1023 tmp904 tmp905 n894 n893 n892 n887 n885 n661 n660 n648 n647 n641 n640 n639 n637 n636 n618 n616 n562 n524 n523 n505 n496 n491 n489 n226 n225 n214 n213 n207 n206 n205 n203 n202 tmp3701 n191 tmp1749 tmp1750 n108 n102 n99 
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#3  -->  CVar_n1040
+tmpvar#1  -->  CVar_n1004
+tmpvar#2  -->  CVar_n1053
+tmpvar#0  -->  CVar_n1065
+tmpvar#4  -->  CVar_n980
+---------------------
+
+old bexp : (and (not (xor n72 (xor (and n60 n88) n103))) i_13)
+new bexp : (xor (and (xor (not n103) n72) i_13) (and (and i_13 n60) n88))
+tgt bexp     : (and (not (xor n1040 (xor (and n1004 n1053) n1065))) n980)
+sub old bexp : (and (not (xor n1040 (xor (and n1004 n1053) n1065))) n980)
+sub new bexp : (xor (and (xor (not n1065) n1040) n980) (and (and n980 n1004) n1053))
+before depth : 27
+after depth : 26
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#0  -->  CVar_n591
+tmpvar#1  -->  CVar_n634
+tmpvar#3  -->  CVar_n598
+tmpvar#2  -->  CVar_n647
+tmpvar#4  -->  CVar_n659
+---------------------
+
+old bexp : (and i_5 (xor n72 (xor (and n60 n88) n103)))
+new bexp : (xor (and (xor n103 n72) i_5) (and (and i_5 n60) n88))
+tgt bexp     : (and n591 (xor n634 (xor (and n598 n647) n659)))
+sub old bexp : (and n591 (xor n634 (xor (and n598 n647) n659)))
+sub new bexp : (xor (and (xor n659 n634) n591) (and (and n591 n598) n647))
+before depth : 18
+after depth : 17
+graph replaced
+
+

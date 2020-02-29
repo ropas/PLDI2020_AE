@@ -39,12 +39,14 @@ $ ./build.sh
 
 ## Reproducing the experimental results in the paper
 ```sh
-# Table 2, depth optimization results
+# Table 2, Column xDepth
 $ ./gen_table_rewriting.sh
-# Table 2, homomorphic evaluation time results(evaluate circuits optimized by Lobster)
+
+# Table 2, Column Eval.Time
 $ ./gen_table_eval.sh
-# Table 2, homomorphic evaluation time results(evaluate circuits optimized by Carpov.et.al)
-$ ./gen_table_eval_baseline.sh
+
+# Fig 5, syntactic matching result
+$ ./gen_table_syntactic.sh
 ```
 
 ## Optimize single homomorphic circuit
@@ -56,7 +58,6 @@ $ ./main.native [ input circuit file(*.eqn) ] [ optimization patterns file(paper
 $ cd baseline
 $ ./main.native [ input circuit file(*.eqn) ] baseline_cases
 ```
-
 
 ## Evaluate single homomorphic circuit
 ```sh
