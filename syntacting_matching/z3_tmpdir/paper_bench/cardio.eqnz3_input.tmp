@@ -1,0 +1,9 @@
+(declare-const n188 Bool)
+(declare-const n201 Bool)
+(declare-const n202 Bool)
+(declare-const n203 Bool)
+(define-fun is_equal () Bool
+	(= (and n188 (not (xor n201 (and n202 n203)))) (xor (and (and n203 n188) n202) (and (not n201) n188)))
+)
+(assert (not is_equal))
+(check-sat)

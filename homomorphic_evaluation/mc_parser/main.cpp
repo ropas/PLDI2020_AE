@@ -373,14 +373,22 @@ int main( const int argc, const char **argv )
 	}
 	
 	string opted_filename_tag = "opted_result";
+	string baseline_filename_tag = "baseline";
 	int name_length = circuit_filename.length();
 	int time_length = time_string.length();
 
+	
         if(circuit_filename.find(opted_filename_tag) != std::string::npos){
-	    cerr << std::string(14 - time_length, ' ') << time_string << endl;
+	    if(circuit_filename.find(baseline_filename_tag) == std::string::npos){
+	      cerr << std::string(16 - time_length, ' ') << time_string;
+	      cerr << endl;
+	    }
+	    else{
+	      cerr << std::string(19 - time_length, ' ') << time_string; 
+	    }
 	}
 	else{
-	    cerr <<  circuit_filename << std::string(10 - name_length, ' ')  << std::string(14 - time_length, ' ') << time_string ;
+	    cerr <<  circuit_filename << std::string(10 - name_length, ' ')  << std::string(12 - time_length, ' ') << time_string ;
 	}
         /*}*/
         //driver.print( std::cout ) << "\n";

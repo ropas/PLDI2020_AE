@@ -1,0 +1,8 @@
+(declare-const i6 Bool)
+(declare-const n36 Bool)
+(declare-const n46 Bool)
+(define-fun is_equal () Bool
+	(= (and i6 (not (and n36 n46))) (xor (and (and n46 i6) n36) i6))
+)
+(assert (not is_equal))
+(check-sat)

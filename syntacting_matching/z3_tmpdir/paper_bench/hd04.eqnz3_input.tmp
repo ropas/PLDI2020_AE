@@ -1,0 +1,9 @@
+(declare-const tmp335 Bool)
+(declare-const n85 Bool)
+(declare-const n104 Bool)
+(declare-const n120 Bool)
+(define-fun is_equal () Bool
+	(= (and (not (xor n104 (and n85 tmp335))) n120) (xor (and (and tmp335 n120) n85) (and (not n104) n120)))
+)
+(assert (not is_equal))
+(check-sat)
