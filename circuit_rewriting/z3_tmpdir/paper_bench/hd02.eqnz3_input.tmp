@@ -1,8 +1,8 @@
 (declare-const n174 Bool)
 (declare-const n115 Bool)
-(declare-const n194 Bool)
+(declare-const n234 Bool)
 (define-fun is_equal () Bool
-	(= (and (and n115 n174) n194) (and n115 (and n194 n174)))
+	(= (and (and n115 n174) n234) (and n115 (and n234 n174)))
 )
 (assert (not is_equal))
 (check-sat)

@@ -21,57 +21,57 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 32
 selected cripath : 
-om_6 n48 n47 n36 n35 n34 n33 n32 n31 
-
-now time : 1582827486.03graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 32
-selected cripath : 
 om_6 n48 n47 n36 n35 n34 n30 n29 
 
-now time : 1582827486.03graph opt iter finished
+now time : 1582957696.98graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 32
 selected cripath : 
-n29 n30 n34 n35 n36 n47 n48 om_7 
+om_7 n48 n47 n36 n35 n34 n30 n29 
 
-now time : 1582827486.03graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 32
-selected cripath : 
-om_7 n48 n47 n36 n26 n22 n20 n19 
-
-now time : 1582827486.04graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 32
-selected cripath : 
-n23 n24 n25 n26 n36 n47 n48 om_6 
-
-now time : 1582827486.04graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 32
-selected cripath : 
-om_6 n48 n47 n36 n35 n34 n30 n29 
-
-now time : 1582827486.04graph opt iter finished
+now time : 1582957696.98graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 32
 selected cripath : 
 n19 n20 n22 n26 n36 n47 n48 om_7 
 
-now time : 1582827486.04graph opt iter finished
+now time : 1582957696.98graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 32
 selected cripath : 
-om_6 n48 n47 n36 n35 n34 n33 n32 n31 
+om_7 n48 n47 n36 n35 n34 n33 n32 n23 
 
-now time : 1582827486.04graph opt iter finished
+now time : 1582957696.99graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 32
 selected cripath : 
-n29 n30 n34 n35 n36 n47 n48 om_7 
+n29 n30 n34 n35 n36 n47 n48 om_6 
 
-now time : 1582827486.04graph opt finished
+now time : 1582957696.99graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 32
+selected cripath : 
+om_6 n48 n47 n36 n35 n34 n30 n29 
+
+now time : 1582957696.99graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 32
+selected cripath : 
+n20 n22 n26 n36 n47 n48 om_7 
+
+now time : 1582957696.99graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 32
+selected cripath : 
+om_6 n48 n47 n36 n26 n22 n20 
+
+now time : 1582957696.99graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 32
+selected cripath : 
+n20 n22 n26 n36 n47 n48 om_6 
+
+now time : 1582957696.99graph opt finished
 new graph depth
 ---graph depth print---
 var : om_0 depth : 0

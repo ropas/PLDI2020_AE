@@ -103,45 +103,7 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 159
 selected cripath : 
-m_2 n162 n161 n160 n159 n138 n137 n129 n128 n80 n79 n78 n77 n69 n68 n67 n66 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#0  -->  CVar_n158
-tmpvar#1  -->  CVar_n138
-tmpvar#2  -->  CVar_n89
----------------------
-
-old bexp : (not (and n379 (and norm3 norm7)))
-new bexp : (not (and (and norm7 n379) norm3))
-tgt bexp     : (not (and n158 (and n138 n89)))
-sub old bexp : (not (and n158 (and n138 n89)))
-sub new bexp : (not (and (and n89 n158) n138))
-before depth : 8
-after depth : 7
-graph replaced
-
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#0  -->  CVar_n158
-tmpvar#1  -->  CVar_n138
-tmpvar#2  -->  CVar_n89
----------------------
-
-old bexp : (and n322 (and norm2 n325))
-new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and n158 (and n138 n89))
-sub old bexp : (and n158 (and n138 n89))
-sub new bexp : (and n138 (and n158 n89))
-before depth : 8
-after depth : 7
-graph replaced
-
+n66 n67 n68 n69 n77 n78 n79 n80 n128 n129 n137 n138 n159 n160 n161 n162 m_2 
 
 unsat
 pattern matched!
@@ -162,31 +124,50 @@ after depth : 4
 graph replaced
 
 
-graph size : 161
-graph mult size : 76
-optimal graph replaced, cost : 55404
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 161
-selected cripath : 
-n66 n67 n68 n69 n77 n78 n79 n80 n85 n98 n99 n105 n106 n122 n123 m_0 
-
 unsat
 pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
-tmpvar#1  -->  CVar_n63
-tmpvar#0  -->  CVar_n78
-tmpvar#2  -->  CVar_n84
+tmpvar#1  -->  CVar_n129
+tmpvar#0  -->  CVar_n136
+tmpvar#2  -->  CVar_n89
 ---------------------
 
 old bexp : (and (not (and n336 norm3)) n352)
 new bexp : (xor (and norm3 (and n352 n336)) n352)
-tgt bexp     : (and (not (and n63 n78)) n84)
-sub old bexp : (and (not (and n63 n78)) n84)
-sub new bexp : (xor (and n78 (and n84 n63)) n84)
-before depth : 5
-after depth : 4
+tgt bexp     : (and (not (and n129 n136)) n89)
+sub old bexp : (and (not (and n129 n136)) n89)
+sub new bexp : (xor (and n136 (and n89 n129)) n89)
+before depth : 7
+after depth : 6
+graph replaced
+
+
+graph size : 163
+graph mult size : 77
+optimal graph replaced, cost : 56133
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 163
+selected cripath : 
+m_2 n154 n153 n139 n138 n137 n136 n133 n132 n131 n63 n60 n59 
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n126
+tmpvar#0  -->  CVar_n138
+tmpvar#2  -->  CVar_n47
+---------------------
+
+old bexp : (not (and (and norm7 norm3) n379))
+new bexp : (not (and (and norm7 n379) norm3))
+tgt bexp     : (not (and (and n126 n138) n47))
+sub old bexp : (not (and (and n126 n138) n47))
+sub new bexp : (not (and (and n126 n47) n138))
+before depth : 8
+after depth : 7
 graph replaced
 
 
@@ -194,35 +175,16 @@ unsat
 pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
-tmpvar#0  -->  CVar_n104
-tmpvar#1  -->  CVar_n85
-tmpvar#2  -->  CVar_n97
+tmpvar#1  -->  CVar_n126
+tmpvar#0  -->  CVar_n138
+tmpvar#2  -->  CVar_n47
 ---------------------
 
-old bexp : (and n352 (not (and norm3 n336)))
-new bexp : (xor (and norm3 (and n352 n336)) n352)
-tgt bexp     : (and n104 (not (and n85 n97)))
-sub old bexp : (and n104 (not (and n85 n97)))
-sub new bexp : (xor (and n85 (and n104 n97)) n104)
-before depth : 6
-after depth : 5
-graph replaced
-
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#0  -->  CVar_n106
-tmpvar#1  -->  CVar_n112
-tmpvar#2  -->  CVar_n120
----------------------
-
-old bexp : (and n322 (and norm2 n325))
+old bexp : (and (and n325 norm2) n322)
 new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and n106 (and n112 n120))
-sub old bexp : (and n106 (and n112 n120))
-sub new bexp : (and n112 (and n106 n120))
+tgt bexp     : (and (and n126 n138) n47)
+sub old bexp : (and (and n126 n138) n47)
+sub new bexp : (and n138 (and n47 n126))
 before depth : 8
 after depth : 7
 graph replaced
@@ -230,9 +192,40 @@ graph replaced
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 163
+now graph size : 164
 selected cripath : 
-m_1 n144 n143 n139 n138 n137 n136 n133 n132 n131 n63 n60 n59 
+n42 n74 n75 n76 n77 n78 n132 n133 n136 n137 n156 n157 n162 m_2 
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n129
+tmpvar#0  -->  CVar_n136
+tmpvar#2  -->  CVar_n155
+---------------------
+
+old bexp : (and (and n325 norm2) n322)
+new bexp : (and norm2 (and n322 n325))
+tgt bexp     : (and (and n129 n136) n155)
+sub old bexp : (and (and n129 n136) n155)
+sub new bexp : (and n136 (and n155 n129))
+before depth : 7
+after depth : 6
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+n61 n62 n63 n131 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+m_1 n144 n143 n139 n138 n137 n136 n133 n132 n131 n63 n62 n61 
 
 unsat
 pattern matched!
@@ -293,43 +286,24 @@ graph replaced
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 161
+now graph size : 163
 selected cripath : 
-m_2 n162 n157 n156 n137 n136 n133 n132 n78 n77 n69 n68 n65 n64 
+m_0 n123 n122 n106 n105 n99 n98 n85 n80 n79 n78 n77 n69 n68 n67 n66 
 
 unsat
 pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
-tmpvar#1  -->  CVar_n137
-tmpvar#0  -->  CVar_n155
-tmpvar#2  -->  CVar_tmp59
+tmpvar#0  -->  CVar_n104
+tmpvar#1  -->  CVar_n85
+tmpvar#2  -->  CVar_n97
 ---------------------
 
-old bexp : (and (not (and i_6 i_8)) (not (and (not i_6) i_4)))
-new bexp : (xor (not (and (xor i_8 i_4) i_6)) i_4)
-tgt bexp     : (and (not (and n137 n155)) (not (and (not n137) tmp59)))
-sub old bexp : (and (not (and n137 n155)) (not (and (not n137) tmp59)))
-sub new bexp : (xor (not (and (xor n155 tmp59) n137)) tmp59)
-before depth : 8
-after depth : 7
-graph replaced
-
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n129
-tmpvar#0  -->  CVar_n136
-tmpvar#2  -->  CVar_n155
----------------------
-
-old bexp : (not (and (and norm7 norm3) n379))
-new bexp : (not (and (and norm7 n379) norm3))
-tgt bexp     : (not (and (and n129 n136) n155))
-sub old bexp : (not (and (and n129 n136) n155))
-sub new bexp : (not (and (and n129 n155) n136))
+old bexp : (and n352 (not (and norm3 n336)))
+new bexp : (xor (and norm3 (and n352 n336)) n352)
+tgt bexp     : (and n104 (not (and n85 n97)))
+sub old bexp : (and n104 (not (and n85 n97)))
+sub new bexp : (xor (and n85 (and n104 n97)) n104)
 before depth : 7
 after depth : 6
 graph replaced
@@ -339,113 +313,16 @@ unsat
 pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
-tmpvar#1  -->  CVar_n129
-tmpvar#0  -->  CVar_n136
-tmpvar#2  -->  CVar_n155
+tmpvar#1  -->  CVar_n80
+tmpvar#0  -->  CVar_n84
+tmpvar#2  -->  CVar_n97
 ---------------------
 
-old bexp : (and (and n325 norm2) n322)
-new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and (and n129 n136) n155)
-sub old bexp : (and (and n129 n136) n155)
-sub new bexp : (and n136 (and n155 n129))
-before depth : 7
-after depth : 6
-graph replaced
-
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 160
-selected cripath : 
-n59 n60 n63 n131 n132 n133 n136 n137 n138 n139 n153 n154 m_2 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n126
-tmpvar#0  -->  CVar_n138
-tmpvar#2  -->  CVar_n47
----------------------
-
-old bexp : (and (and n325 norm2) n322)
-new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and (and n126 n138) n47)
-sub old bexp : (and (and n126 n138) n47)
-sub new bexp : (and n138 (and n47 n126))
-before depth : 8
-after depth : 7
-graph replaced
-
-
-graph size : 161
-graph mult size : 74
-optimal graph replaced, cost : 37888
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 161
-selected cripath : 
-m_1 tmp452 tmp453 n139 n138 n137 n136 n133 n132 n131 n63 n62 n61 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n126
-tmpvar#0  -->  CVar_n138
-tmpvar#2  -->  CVar_tmp454
----------------------
-
-old bexp : (not (and (and norm7 norm3) n379))
+old bexp : (not (and (and norm3 norm7) n379))
 new bexp : (not (and (and norm7 n379) norm3))
-tgt bexp     : (not (and (and n126 n138) tmp454))
-sub old bexp : (not (and (and n126 n138) tmp454))
-sub new bexp : (not (and (and n126 tmp454) n138))
-before depth : 8
-after depth : 7
-graph replaced
-
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n126
-tmpvar#0  -->  CVar_n138
-tmpvar#2  -->  CVar_tmp454
----------------------
-
-old bexp : (and (and n325 norm2) n322)
-new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and (and n126 n138) tmp454)
-sub old bexp : (and (and n126 n138) tmp454)
-sub new bexp : (and n138 (and tmp454 n126))
-before depth : 8
-after depth : 7
-graph replaced
-
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 161
-selected cripath : 
-m_0 n123 n122 n112 n111 n108 n80 n79 n78 n77 n76 n72 n71 n38 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n107
-tmpvar#0  -->  CVar_n80
-tmpvar#2  -->  CVar_n110
----------------------
-
-old bexp : (not (and (and norm7 norm3) n379))
-new bexp : (not (and (and norm7 n379) norm3))
-tgt bexp     : (not (and (and n107 n80) n110))
-sub old bexp : (not (and (and n107 n80) n110))
-sub new bexp : (not (and (and n107 n110) n80))
+tgt bexp     : (not (and (and n80 n84) n97))
+sub old bexp : (not (and (and n80 n84) n97))
+sub new bexp : (not (and (and n84 n97) n80))
 before depth : 6
 after depth : 5
 graph replaced
@@ -455,20 +332,64 @@ unsat
 pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
-tmpvar#1  -->  CVar_n107
-tmpvar#0  -->  CVar_n80
-tmpvar#2  -->  CVar_n110
+tmpvar#1  -->  CVar_n80
+tmpvar#0  -->  CVar_n84
+tmpvar#2  -->  CVar_n97
 ---------------------
 
-old bexp : (and (and n325 norm2) n322)
+old bexp : (and (and norm2 n325) n322)
 new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and (and n107 n80) n110)
-sub old bexp : (and (and n107 n80) n110)
-sub new bexp : (and n80 (and n110 n107))
+tgt bexp     : (and (and n80 n84) n97)
+sub old bexp : (and (and n80 n84) n97)
+sub new bexp : (and n80 (and n97 n84))
 before depth : 6
 after depth : 5
 graph replaced
 
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n63
+tmpvar#0  -->  CVar_n78
+tmpvar#2  -->  CVar_tmp1232
+---------------------
+
+old bexp : (and (not (and n336 norm3)) n352)
+new bexp : (xor (and norm3 (and n352 n336)) n352)
+tgt bexp     : (and (not (and n63 n78)) tmp1232)
+sub old bexp : (and (not (and n63 n78)) tmp1232)
+sub new bexp : (xor (and n78 (and tmp1232 n63)) tmp1232)
+before depth : 5
+after depth : 4
+graph replaced
+
+
+unsat
+pattern matched!
+tgt, new_tgt same? : true
+----print_subst start----
+tmpvar#1  -->  CVar_n63
+tmpvar#0  -->  CVar_n78
+tmpvar#2  -->  CVar_n84
+---------------------
+
+old bexp : (and (not (and n336 norm3)) n352)
+new bexp : (xor (and norm3 (and n352 n336)) n352)
+tgt bexp     : (and (not (and n63 n78)) n84)
+sub old bexp : (and (not (and n63 n78)) n84)
+sub new bexp : (xor (and n78 (and n84 n63)) n84)
+before depth : 5
+after depth : 4
+graph replaced
+
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+n38 n71 n72 n76 n77 n78 n79 n80 n108 n111 n112 n121 n122 n123 m_0 
 
 unsat
 pattern matched!
@@ -489,91 +410,48 @@ after depth : 4
 graph replaced
 
 
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-n70 n71 n72 n76 n77 n78 n132 n133 n136 n137 n138 n153 n154 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-n70 n71 n72 n76 n77 n78 n132 n133 n136 n137 n138 n153 n154 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-n42 n74 n75 n76 n77 n78 n132 n133 n136 n137 n138 n153 n154 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-n38 n71 n72 n76 n77 n78 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-n64 n65 n68 n69 n77 n78 tmp310 n85 n86 n87 n88 n92 n93 n94 m_0 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-m_2 n162 tmp726 tmp727 n137 n136 n133 n132 n131 n63 n60 n59 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-n61 n62 n63 n131 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 164
-selected cripath : 
-m_0 n94 n93 n56 n49 n48 n47 n41 n37 n36 
-
 unsat
 pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
-tmpvar#1  -->  CVar_n34
-tmpvar#0  -->  CVar_n47
-tmpvar#2  -->  CVar_n55
+tmpvar#1  -->  CVar_n108
+tmpvar#0  -->  CVar_n110
+tmpvar#2  -->  CVar_n120
 ---------------------
 
-old bexp : (and (not (and n336 norm3)) n352)
+old bexp : (and (not (and norm3 n336)) n352)
 new bexp : (xor (and norm3 (and n352 n336)) n352)
-tgt bexp     : (and (not (and n34 n47)) n55)
-sub old bexp : (and (not (and n34 n47)) n55)
-sub new bexp : (xor (and n47 (and n55 n34)) n55)
+tgt bexp     : (and (not (and n108 n110)) n120)
+sub old bexp : (and (not (and n108 n110)) n120)
+sub new bexp : (xor (and n108 (and n120 n110)) n120)
 before depth : 6
 after depth : 5
 graph replaced
 
 
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n37
-tmpvar#0  -->  CVar_n40
-tmpvar#2  -->  CVar_n46
----------------------
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+m_2 n162 n161 n160 n159 tmp108 n136 n133 n132 n78 n77 n69 n68 n65 n64 
 
-old bexp : (and (and norm2 n325) n322)
-new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and (and n37 n40) n46)
-sub old bexp : (and (and n37 n40) n46)
-sub new bexp : (and n37 (and n46 n40))
-before depth : 4
-after depth : 3
-graph replaced
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+n61 n62 n63 n131 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
 
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+n59 n60 n63 n131 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
+
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 165
+selected cripath : 
+n36 n37 n41 n47 n89 tmp109 tmp108 n159 n160 n161 n162 m_2 
 
 unsat
 pattern matched!
@@ -598,244 +476,82 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 166
 selected cripath : 
-n61 n62 n63 tmp311 tmp310 n85 n86 n87 n88 n92 n93 n94 m_0 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#3  -->  CVar_i_13
-tmpvar#1  -->  CVar_i_5
-tmpvar#0  -->  CVar_n62
-tmpvar#2  -->  CVar_n81
----------------------
-
-old bexp : (and (and (not (and norm4 n333)) n150) (not (and n336 (not norm4))))
-new bexp : (and (xor (or (xor (not n336) n333) norm4) n333) n150)
-tgt bexp     : (and (and (not (and i_13 i_5)) n62) (not (and n81 (not i_13))))
-sub old bexp : (and (and (not (and i_13 i_5)) n62) (not (and n81 (not i_13))))
-sub new bexp : (and (xor (or (xor (not n81) i_5) i_13) i_5) n62)
-before depth : 3
-after depth : 2
-graph replaced
-
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#0  -->  CVar_n58
-tmpvar#1  -->  CVar_n84
-tmpvar#2  -->  CVar_n78
-tmpvar#3  -->  CVar_tmp311
----------------------
-
-old bexp : (and n261 (not (xor n215 (and n177 i_23))))
-new bexp : (xor (and (and i_23 n261) n177) (and (not n215) n261))
-tgt bexp     : (and n58 (not (xor n84 (and n78 tmp311))))
-sub old bexp : (and n58 (not (xor n84 (and n78 tmp311))))
-sub new bexp : (xor (and (and tmp311 n58) n78) (and (not n84) n58))
-before depth : 5
-after depth : 4
-graph replaced
-
+n70 n71 n72 n76 n77 n78 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 173
+now graph size : 166
 selected cripath : 
-n64 n65 n68 n69 n77 n78 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
+m_2 n162 n161 n160 n159 tmp108 n136 n133 n132 n78 n77 n76 n72 n71 n70 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 173
+now graph size : 166
 selected cripath : 
-n59 n60 n63 n131 n132 n133 n136 n137 n138 n153 n154 m_2 
+n61 n62 n63 tmp71 tmp70 n128 n129 tmp109 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 173
+now graph size : 166
 selected cripath : 
-m_0 n123 n122 tmp345 n106 n105 tmp334 tmp335 n104 n103 n53 n52 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#1  -->  CVar_n102
-tmpvar#0  -->  CVar_n103
-tmpvar#2  -->  CVar_n97
----------------------
-
-old bexp : (and (and n325 norm2) n322)
-new bexp : (and norm2 (and n322 n325))
-tgt bexp     : (and (and n102 n103) n97)
-sub old bexp : (and (and n102 n103) n97)
-sub new bexp : (and n103 (and n97 n102))
-before depth : 4
-after depth : 3
-graph replaced
-
+n59 n60 n63 n131 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 174
+now graph size : 166
 selected cripath : 
-m_0 n123 n122 tmp345 n106 n105 tmp334 n85 tmp310 n78 n77 n76 n75 n74 n42 
-
-unsat
-pattern matched!
-tgt, new_tgt same? : true
-----print_subst start----
-tmpvar#2  -->  CVar_n104
-tmpvar#1  -->  CVar_n85
-tmpvar#0  -->  CVar_tmp335
-tmpvar#3  -->  CVar_n120
----------------------
-
-old bexp : (and (not (xor n215 (and n177 i_23))) n261)
-new bexp : (xor (and (and i_23 n261) n177) (and (not n215) n261))
-tgt bexp     : (and (not (xor n104 (and n85 tmp335))) n120)
-sub old bexp : (and (not (xor n104 (and n85 tmp335))) n120)
-sub new bexp : (xor (and (and tmp335 n120) n85) (and (not n104) n120))
-before depth : 6
-after depth : 5
-graph replaced
-
+n73 n74 n75 n76 n77 n78 tmp70 n128 n129 tmp109 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-m_2 n162 tmp726 tmp727 n137 n136 n133 n132 n131 n63 n60 n59 
+n38 n71 n72 n76 n77 n78 tmp70 n128 n129 tmp109 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-m_2 n162 tmp726 tmp727 n137 n136 n133 n132 n131 n63 n62 n61 
+n64 n65 n68 n69 n77 n78 tmp70 n128 n129 tmp109 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-m_2 n154 n153 n138 n137 n136 n133 n132 n78 n77 n69 n68 n65 n64 
+n59 n60 n63 n131 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-m_2 n162 tmp726 tmp727 n137 n136 n133 n132 n131 n63 n60 n59 
+n81 n83 n84 n127 tmp71 tmp70 n128 n129 tmp109 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-n73 n74 n75 n76 n77 n78 n132 n133 n136 n137 n138 n153 n154 m_2 
+n70 n71 n72 n76 n77 n78 n132 n133 n136 tmp108 n159 n160 n161 n162 m_2 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-n61 n62 n63 n131 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
+m_2 n162 n161 n160 n159 tmp108 n136 n133 n132 n131 n63 n62 n61 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-m_2 n162 tmp726 tmp727 n137 n136 n133 n132 n131 n63 n60 n59 
+m_2 n162 n161 n160 n159 tmp108 n136 n133 n132 n131 n63 n60 n59 
 
 graph opt iter finished
 ============================================= graph opt iter once ===================================================
-now graph size : 175
+now graph size : 166
 selected cripath : 
-m_2 n162 tmp726 tmp727 n137 n136 n133 n132 n131 n63 n60 n59 
+m_2 n162 n161 n160 n159 tmp108 n136 n133 n132 n78 n77 n76 n75 n74 n42 
 
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 175
-selected cripath : 
-n66 n67 n68 n69 n77 n78 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 175
-selected cripath : 
-n61 n62 n63 n131 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 175
-selected cripath : 
-n61 n62 n63 n131 n132 n133 n136 n137 tmp727 tmp726 n162 m_2 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 175
-selected cripath : 
-m_2 n154 n153 n138 n137 n136 n133 n132 n78 n77 n76 n72 n71 n38 
-
-graph opt iter finished
-============================================= graph opt iter once ===================================================
-now graph size : 175
-selected cripath : 
-n64 n65 n68 n69 n77 n78 n132 n133 n136 n137 n138 n153 n154 m_2 
-
-dangling node deleted : nodeVal : AND index : 139
-dangling node deleted : nodeVal : AND index : 179
-dangling node deleted : nodeVal : AND index : 213
 dangling node deleted : nodeVal : AND index : 225
-dangling node deleted : nodeVal : AND index : 255
-dangling node deleted : nodeVal : AND index : 273
-dangling node deleted : nodeVal : AND index : 275
-dangling node deleted : nodeVal : AND index : 281
-dangling node deleted : nodeVal : AND index : 289
-dangling node deleted : nodeVal : AND index : 293
-dangling node deleted : nodeVal : NOT index : 257
-dangling node deleted : nodeVal : NOT index : 283
-dangling node deleted : nodeVal : NOT index : 291
-dangling node deleted : nodeVal : n121 index : 1
-dangling node deleted : nodeVal : n143 index : 1
-dangling node deleted : nodeVal : n144 index : 1
-dangling node deleted : nodeVal : n151 index : 1
-dangling node deleted : nodeVal : n156 index : 1
-dangling node deleted : nodeVal : n157 index : 1
-dangling node deleted : nodeVal : n159 index : 1
-dangling node deleted : nodeVal : n160 index : 1
-dangling node deleted : nodeVal : n161 index : 1
-dangling node deleted : nodeVal : n99 index : 1
-dangling node deleted : nodeVal : AND index : 211
 dangling node deleted : nodeVal : AND index : 287
-dangling node deleted : nodeVal : AND index : 343
-dangling node deleted : nodeVal : AND index : 376
-dangling node deleted : nodeVal : AND index : 391
-dangling node deleted : nodeVal : NOT index : 167
-dangling node deleted : nodeVal : NOT index : 271
-dangling node deleted : nodeVal : NOT index : 340
-dangling node deleted : nodeVal : NOT index : 373
-dangling node deleted : nodeVal : NOT index : 388
-dangling node deleted : nodeVal : n150 index : 1
-dangling node deleted : nodeVal : n98 index : 1
-dangling node deleted : nodeVal : tmp457 index : 1
-dangling node deleted : nodeVal : tmp461 index : 1
-dangling node deleted : nodeVal : tmp58 index : 1
-dangling node deleted : nodeVal : tmp63 index : 1
-dangling node deleted : nodeVal : tmp731 index : 1
-dangling node deleted : nodeVal : tmp735 index : 1
-dangling node deleted : nodeVal : AND index : 165
-dangling node deleted : nodeVal : AND index : 269
-dangling node deleted : nodeVal : AND index : 339
-dangling node deleted : nodeVal : AND index : 342
-dangling node deleted : nodeVal : AND index : 372
-dangling node deleted : nodeVal : AND index : 375
-dangling node deleted : nodeVal : AND index : 387
-dangling node deleted : nodeVal : AND index : 390
-dangling node deleted : nodeVal : n145 index : 1
-dangling node deleted : nodeVal : tmp458 index : 1
-dangling node deleted : nodeVal : tmp732 index : 1
-dangling node deleted : nodeVal : AND index : 370
-dangling node deleted : nodeVal : AND index : 385
-dangling node deleted : nodeVal : NOT index : 259
 cleanup fin
 sharing detect fin
 cleanup fin
@@ -932,9 +648,7 @@ n69 = (!n68);
 n76 = (n72 * n75);
 n89 = (!n47);
 n90 = (n32 * n89);
-tmp167 = (n127 * n63);
-tmp311 = (n63 * n84);
-tmp335 = (n104 * n97);
+tmp71 = (n127 * n63);
 n120 = (!n119);
 n142 = (!n141 * n89) + (n141 * !n89);
 n149 = (!n140 * n148) + (n140 * !n148);
@@ -948,68 +662,72 @@ n168 = (n167 * n72);
 n176 = (!n175);
 n49 = (!n48);
 n78 = (!n77);
-tmp166 = (n78 * tmp167);
-tmp454 = (!n142 * n149) + (n142 * !n149);
-n128 = (!n127 * tmp166) + (n127 * !tmp166);
+tmp70 = (n78 * tmp71);
+n128 = (!n127 * tmp70) + (n127 * !tmp70);
 n132 = (n131 * n78);
 n169 = (!n168);
 n177 = (n176 * n40);
 n56 = (n49 * n55);
 n79 = (n63 * n78);
-tmp310 = (n78 * tmp311);
 n129 = (!n128);
 n133 = (!n132);
 n170 = (n169 * n62);
 n178 = (!n177);
 n80 = (!n79);
-n85 = (!n84 * tmp310) + (n84 * !tmp310);
 n108 = (n107 * n80);
 n136 = (n133 * n135);
 n137 = (n129 * n136);
 n171 = (!n170);
 n179 = (n178 * n65);
-n86 = (!n85);
-tmp334 = (n85 * tmp335);
+n85 = (n80 * n84);
+tmp109 = (n129 * n89);
 m_3 = (!n137 * n89) + (n137 * !n89);
 m_5 = (!n179 * n43) + (n179 * !n43);
-n105 = (!n104 * tmp334) + (n104 * !tmp334);
 n111 = (n108 * n110);
 n126 = (!n108 * n125) + (n108 * !n125);
 n138 = (!n137);
+n156 = (n137 * n155);
 n172 = (n171 * n75);
-n87 = (n58 * n86);
+n86 = (!n85);
+n98 = (n85 * n97);
+tmp108 = (n136 * tmp109);
 m_4 = (!n172 * n45) + (n172 * !n45);
-n106 = (!n105);
 n112 = (!n111);
 n139 = (n126 * n138);
+n157 = (!n156);
 n158 = (!n126);
+n159 = (!n89 * tmp108) + (n89 * !tmp108);
+n87 = (n58 * n86);
+n99 = (!n98);
+n105 = (n104 * n99);
+n121 = (n112 * n120);
+n143 = (n139 * n142);
+n145 = (!n139);
+n153 = (n139 * n47);
+n160 = (n158 * n159);
 n88 = (!n87);
-tmp1074 = (n126 * n47);
-n153 = (n138 * tmp1074);
-n92 = (n88 * n91);
-tmp345 = (n106 * n120);
-tmp453 = (n139 * tmp454);
-tmp59 = (n158 * n89);
-n122 = (n112 * tmp345);
+n106 = (!n105);
+n122 = (n106 * n121);
+n144 = (!n143);
+n150 = (n145 * n149);
 n154 = (!n153);
-n93 = (n56 * n92);
-tmp452 = (!tmp453);
-tmp728 = (!n155 * tmp59) + (n155 * !tmp59);
-m_1 = (!n149 * tmp452) + (n149 * !tmp452);
-n123 = (!n122);
-n94 = (!n93);
-tmp727 = (n137 * tmp728);
-m_0 = (n123 * n94);
-tmp726 = (!tmp727);
-n162 = (!tmp59 * tmp726) + (tmp59 * !tmp726);
+n161 = (!n160);
+n162 = (n157 * n161);
+n92 = (n88 * n91);
 m_2 = (n154 * n162);
+n123 = (!n122);
+n151 = (!n150);
+n93 = (n56 * n92);
+m_1 = (n144 * n151);
+n94 = (!n93);
+m_0 = (n123 * n94);
 
 
 new graph depth
 ---graph depth print---
-var : m_0 depth : 8
-var : m_1 depth : 8
-var : m_2 depth : 8
+var : m_0 depth : 9
+var : m_1 depth : 9
+var : m_2 depth : 9
 var : m_3 depth : 6
 var : m_4 depth : 6
 var : m_5 depth : 6
@@ -1017,4 +735,4 @@ var : m_6 depth : 3
 var : m_7 depth : 1
 ---------------------
 old mult depth : 10
-new mult depth : 8
+new mult depth : 9

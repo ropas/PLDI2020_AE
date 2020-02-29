@@ -1,8 +1,0 @@
-(declare-const n687 Bool)
-(declare-const n699 Bool)
-(declare-const n706 Bool)
-(define-fun is_equal () Bool
-	(= (and n687 (and n699 n706)) (and (and n699 n687) n706))
-)
-(assert (not is_equal))
-(check-sat)

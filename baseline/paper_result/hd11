@@ -45,9 +45,9 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 652
 selected cripath : 
-m_29 n737 n736 n735 n730 n729 n728 n717 n716 n715 n714 n711 n705 n696 n695 n692 n518 n517 n493 n472 n471 n465 n464 n463 n138 n137 
+m_29 n737 n736 n735 n730 n729 n728 n717 n716 n715 n714 n711 n705 n704 n703 n702 n701 n700 n585 n584 n552 n551 n550 n549 n547 n125 n96 
 
-now time : 1582827585.3pattern matched!
+now time : 1582957803.03pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
 tmpvar#0  -->  CVar_n734
@@ -101,7 +101,13 @@ after depth : 12
 graph replaced
 
 
-pattern matched!
+graph opt iter finished
+============================================= graph opt iter once ===================================================
+now graph size : 653
+selected cripath : 
+m_29 n737 n736 tmp2 n730 n729 n728 n717 n709 n708 n705 n696 n695 n692 n518 n517 n493 n492 n480 n479 n476 n475 n148 n146 
+
+now time : 1582957803.17pattern matched!
 tgt, new_tgt same? : true
 ----print_subst start----
 tmpvar#1  -->  CVar_n518
@@ -123,57 +129,57 @@ graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-m_29 n737 n736 tmp2 n730 n729 n728 n717 n716 n715 tmp16 n711 n705 n704 n703 n697 n692 n518 n517 n516 n501 n500 n496 n495 n263 n226 n225 
+m_29 n737 n736 tmp2 n730 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n493 n492 n491 n490 n487 n486 n161 n139 
 
-now time : 1582827585.47graph opt iter finished
+now time : 1582957803.32graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 tmp16 n711 n705 n704 n703 n702 n701 n700 n585 n584 n583 n582 n574 n570 n568 n220 n219 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 tmp16 n711 n705 n704 n703 n697 n692 n518 n517 n493 n492 n491 n490 n487 n486 n161 n137 
 
-now time : 1582827585.62graph opt iter finished
+now time : 1582957803.47graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
 n105 n106 n488 n489 n490 n491 n492 n493 n517 n518 n692 n697 n703 n704 n705 n711 tmp16 n715 n716 n717 n728 n729 n730 tmp2 n736 n737 m_29 
 
-now time : 1582827585.76graph opt iter finished
+now time : 1582957803.63graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-m_29 n737 n736 tmp2 n730 n729 n728 n717 n716 n715 tmp16 n711 n705 n704 n703 n697 n692 n518 n517 n493 n472 n471 n470 n467 n466 n226 n224 
+m_29 n737 n736 tmp3 n734 n718 n717 n709 n708 n705 n704 n703 n702 n701 n700 n585 n584 n583 n567 n566 n562 n561 n560 n559 n133 n132 
 
-now time : 1582827585.92graph opt iter finished
+now time : 1582957803.78graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-n217 n218 n578 n580 n581 n582 n583 n584 n585 n700 n701 n702 n703 n704 n705 n711 tmp16 n715 n716 n717 n728 n729 n730 tmp2 n736 n737 m_29 
+n137 n138 n463 n464 n465 n471 n472 n493 n517 n518 n692 n697 n703 n704 n705 n708 n709 n717 n718 n734 tmp3 n736 n737 m_29 
 
-now time : 1582827586.08graph opt iter finished
+now time : 1582957803.89graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-m_29 n737 n736 tmp3 n734 n718 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n493 n472 n460 n454 n451 n450 n120 n105 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n709 n708 n705 n704 n703 n697 n692 n518 n517 n516 n501 n500 n499 n498 n271 n254 n253 
 
-now time : 1582827586.2graph opt iter finished
+now time : 1582957804.05graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-n114 n115 n523 n524 n525 n533 n552 n584 n585 n700 n701 n702 n703 n704 n705 n711 tmp16 n715 n716 n717 n728 n729 n730 n731 m_28 n733 m_29 
+n149 n150 n379 n380 n506 n507 n515 n516 n517 n518 n692 n697 n703 n704 n705 n708 n709 n717 n718 n734 tmp3 n736 n737 m_29 
 
-now time : 1582827586.36graph opt iter finished
+now time : 1582957804.21graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-m_29 n737 n736 tmp2 n730 n729 n728 n717 n716 n715 tmp16 n711 n705 n704 n703 n697 n692 n518 n517 n516 n501 n500 n499 n498 n271 n254 n252 
+m_29 n733 m_28 n731 n730 n729 n728 n717 n716 n715 tmp16 n711 n705 n704 n703 n702 n701 n700 n585 n584 n552 n551 n543 n542 n540 n150 n140 
 
-now time : 1582827586.5graph opt iter finished
+now time : 1582957804.37graph opt iter finished
 ============================================= graph opt iter once ===================================================
 now graph size : 654
 selected cripath : 
-n94 n95 n97 n508 n510 n514 n515 n516 n517 n518 n692 n697 n703 n704 n705 n711 tmp16 n715 n716 n717 n728 n729 n730 n731 m_28 n733 m_29 
+n104 n106 n520 n521 n525 n533 n552 n584 n585 n700 n701 n702 n703 n704 n705 n708 n709 n717 n728 n729 n730 tmp2 n736 n737 m_29 
 
-now time : 1582827586.65graph opt finished
+now time : 1582957804.49graph opt finished
 new graph depth
 ---graph depth print---
 var : m_0 depth : 0
@@ -209,12 +215,12 @@ var : m_29 depth : 17
 var : m_30 depth : 13
 var : m_31 depth : 11
 ---------------------
+tmp87 = (and n691 n694)
+tmp86 = n518
 tmp7 = (and n709 n724)
 tmp6 = n729
 tmp3 = (and n709 n734)
 tmp2 = n730
-tmp19 = (and n691 n694)
-tmp18 = n518
 tmp17 = (and n710 n713)
 tmp16 = (and n710 n711)
 n99 = (and n97 n98)
@@ -269,7 +275,7 @@ n699 = (not n684)
 n698 = (not n694)
 n697 = (not n692)
 n696 = (not n695)
-n695 = (and tmp18 tmp19)
+n695 = (and tmp86 tmp87)
 n694 = (and n641 n693)
 n693 = (not n683)
 n692 = (and n518 n691)

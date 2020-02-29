@@ -1,0 +1,10 @@
+(declare-const tmp8 Bool)
+(declare-const tmp11 Bool)
+(declare-const n121 Bool)
+(declare-const n90 Bool)
+(declare-const n140 Bool)
+(define-fun is_equal () Bool
+	(= (and (and (and n121 n90) (and tmp11 tmp8)) n140) (and (and (and n140 tmp8) n90) (and n121 tmp11)))
+)
+(assert (not is_equal))
+(check-sat)

@@ -1,0 +1,39 @@
+cir to graph finished
+old graph depth
+---graph depth print---
+var : om_0 depth : 0
+var : om_1 depth : 1
+var : om_2 depth : 2
+var : om_3 depth : 3
+var : om_4 depth : 3
+var : om_5 depth : 4
+var : om_6 depth : 4
+var : om_7 depth : 4
+var : om_8 depth : 4
+var : om_9 depth : 5
+var : om_10 depth : 5
+var : om_11 depth : 5
+var : om_12 depth : 5
+var : om_13 depth : 5
+var : om_14 depth : 5
+var : om_15 depth : 5
+var : om_16 depth : 5
+var : om_17 depth : 6
+var : om_18 depth : 6
+var : om_19 depth : 6
+var : om_20 depth : 6
+var : om_21 depth : 6
+var : om_22 depth : 6
+var : om_23 depth : 6
+var : om_24 depth : 6
+var : om_25 depth : 6
+var : om_26 depth : 6
+var : om_27 depth : 6
+var : om_28 depth : 6
+var : om_29 depth : 6
+var : om_30 depth : 6
+var : om_31 depth : 6
+---------------------
+============================================= graph opt start ===================================================
+initial graph size : 229
+whole case num : 500
